@@ -125,6 +125,7 @@ const exlcudedAgencies = ['AM', 'AF', 'CE', 'CM', 'EE', 'EM', 'GP', 'MB', 'MC', 
 // Agencies that have a local fare and a special fare that need to be treated differently
 const specialAgencies: GTFSAgency[] = [
   { Id: "AC:transbay", Name: "AC Transit - Transbay", LastGenerated: "" },
+  { Id: "WC:transbay", Name: "WestCAT Lynx - Transbay", LastGenerated: "" },
   { Id: "SC:express", Name: "VTA - Express", LastGenerated: "" },
   { Id: "3D:regional", Name: "Tri-Delta Transit - 200X/201X", LastGenerated: "" },
   { Id: "DE:transbay", Name: "Dumbarton - Transbay", LastGenerated: "" },
