@@ -30,18 +30,15 @@ transfer:free-clipper,Free transfer for Clipper users,0.00,USD,,,,,,clipper
 3D:local:31-day,Tri-Delta Transit 31 day pass,57.00,USD,,31.0,3,1,adult,cash
 3D:local:day,Tri-Delta Transit 1 day pass,3.75,USD,,1.0,3,1,adult,cash
 3D:local:day,Tri-Delta Transit 1 day pass,1.75,USD,,1.0,3,1,smd,cash
-AC:local:single,AC Transit local fare,2.75,USD,,,,,adult,cash
-AC:local:single,AC Transit local fare,1.35,USD,,,,,smd,cash
-AC:local:single,AC Transit local fare,1.35,USD,,,,,youth,cash
+AC:local:single,AC Transit local fare,3.00,USD,,,,,adult,cash
+AC:local:single,AC Transit local fare,1.50,USD,,,,,smd,cash
+AC:local:single,AC Transit local fare,1.50,USD,,,,,youth,cash
 AC:local:single,AC Transit local fare,0.00,USD,,,,,child,cash
-AC:local:single,AC Transit local fare,2.50,USD,,,,,adult,clipper
-AC:local:single,AC Transit local fare,1.25,USD,,,,,smd,clipper
-AC:local:single,AC Transit local fare,1.25,USD,,,,,youth,clipper
+AC:local:single,AC Transit local fare,2.75,USD,,,,,adult,clipper
+AC:local:single,AC Transit local fare,1.37,USD,,,,,smd,clipper
+AC:local:single,AC Transit local fare,1.37,USD,,,,,youth,clipper
 AC:local:single,AC Transit local fare,0.00,USD,,,,,child,clipper
-AC:local:single,AC Transit local fare,2.50,USD,,,,,adult,contactless
-AC:local:single,AC Transit local fare,0.00,USD,,,,,smd,contactless
-AC:local:single,AC Transit local fare,0.00,USD,,,,,youth,contactless
-AC:local:single,AC Transit local fare,0.00,USD,,,,,child,contactless
+AC:local:single,AC Transit local fare,2.75,USD,,,,,adult,contactless
 AC:transbay:single,AC Transit single transbay fare,6.50,USD,,,,,adult,cash
 AC:transbay:single,AC Transit single transbay fare,3.25,USD,,,,,smd,cash
 AC:transbay:single,AC Transit single transbay fare,3.25,USD,,,,,youth,cash
@@ -51,31 +48,25 @@ AC:transbay:single,AC Transit single transbay fare,3.25,USD,,,,,smd,clipper
 AC:transbay:single,AC Transit single transbay fare,3.25,USD,,,,,youth,clipper
 AC:transbay:single,AC Transit single transbay fare,0.00,USD,,,,,child,clipper
 AC:transbay:single,AC Transit single transbay fare,6.50,USD,,,,,adult,contactless
-AC:transbay:single,AC Transit single transbay fare,0.00,USD,,,,,smd,contactless
-AC:transbay:single,AC Transit single transbay fare,0.00,USD,,,,,youth,contactless
-AC:transbay:single,AC Transit single transbay fare,0.00,USD,,,,,child,contactless
-AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,3.75,USD,,,,,adult,cash
-AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,1.90,USD,,,,,smd,cash
-AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,1.90,USD,,,,,youth,cash
+AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,3.50,USD,,,,,adult,cash
+AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,1.75,USD,,,,,smd,cash
+AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,1.75,USD,,,,,youth,cash
 AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,0.00,USD,,,,,child,cash
-AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,4.00,USD,,,,,adult,clipper
-AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,2.00,USD,,,,,smd,clipper
-AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,2.00,USD,,,,,youth,clipper
+AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,3.75,USD,,,,,adult,clipper
+AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,1.88,USD,,,,,smd,clipper
+AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,1.88,USD,,,,,youth,clipper
 AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,0.00,USD,,,,,child,clipper
-AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,4.00,USD,,,,,adult,contactless
-AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,0.00,USD,,,,,smd,contactless
-AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,0.00,USD,,,,,youth,contactless
-AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,0.00,USD,,,,,child,contactless
-AC:local:day,AC Transit local day pass,6.00,USD,,1.0,3,1,adult,cash
-AC:local:day,AC Transit local day pass,3.00,USD,,1.0,3,1,smd,cash
-AC:local:day,AC Transit local day pass,3.00,USD,,1.0,3,1,youth,cash
+AC:transfer:transbay-upgrade,AC Transit Transbay upgrade,3.75,USD,,,,,adult,contactless
+AC:local:day,AC Transit local day pass,6.50,USD,,1.0,3,1,adult,cash
+AC:local:day,AC Transit local day pass,3.25,USD,,1.0,3,1,smd,cash
+AC:local:day,AC Transit local day pass,3.25,USD,,1.0,3,1,youth,cash
 AC:local:day,AC Transit local day pass,0.00,USD,,1.0,3,1,child,cash
-AC:local:day,AC Transit local day pass,5.50,USD,,1.0,3,1,adult,clipper
-AC:local:day,AC Transit local day pass,2.75,USD,,1.0,3,1,smd,clipper
-AC:local:day,AC Transit local day pass,2.75,USD,,1.0,3,1,youth,clipper
+AC:local:day,AC Transit local day pass,6.00,USD,,1.0,3,1,adult,clipper
+AC:local:day,AC Transit local day pass,3.00,USD,,1.0,3,1,smd,clipper
+AC:local:day,AC Transit local day pass,3.00,USD,,1.0,3,1,youth,clipper
 AC:local:day,AC Transit local day pass,0.00,USD,,1.0,3,1,child,clipper
-AC:local:31-day,AC Transit 31-day local pass,90.00,USD,,31.0,3,1,adult,clipper
-AC:local:31-day,AC Transit 31-day local pass,37.50,USD,,31.0,3,1,youth,clipper
+AC:local:31-day,AC Transit 31-day local pass,99.00,USD,,31.0,3,1,adult,clipper
+AC:local:31-day,AC Transit 31-day local pass,41.50,USD,,31.0,3,1,youth,clipper
 AC:transbay:31-day,AC Transit 31-day transbay pass,234.00,USD,,31.0,3,1,adult,clipper
 AC:transfer:ba-credit,AC Transit BART credit,-0.50,USD,,,,,adult,clipper
 AC:transfer:ba-credit,AC Transit BART credit,-0.50,USD,,,,,smd,clipper
@@ -10224,8 +10215,6 @@ CC:express:single,County Connection express route fare,2.00,USD,,,,,adult,clippe
 CC:express:single,County Connection express route fare,1.00,USD,,,,,youth,clipper
 CC:express:single,County Connection express route fare,1.00,USD,,,,,smd,clipper
 CC:express:single,County Connection express route fare,2.00,USD,,,,,adult,contactless
-CC:express:single,County Connection express route fare,0.00,USD,,,,,youth,contactless
-CC:express:single,County Connection express route fare,0.00,USD,,,,,smd,contactless
 CC:local:single,County Connection local fare,2.50,USD,,,,,adult,cash
 CC:local:single,County Connection local fare,2.50,USD,,,,,youth,cash
 CC:local:single,County Connection local fare,1.25,USD,,,,,smd,cash
@@ -10233,12 +10222,9 @@ CC:local:single,County Connection local fare,2.00,USD,,,,,adult,clipper
 CC:local:single,County Connection local fare,1.00,USD,,,,,youth,clipper
 CC:local:single,County Connection local fare,1.00,USD,,,,,smd,clipper
 CC:local:single,County Connection local fare,2.00,USD,,,,,adult,contactless
-CC:local:single,County Connection local fare,0.00,USD,,,,,youth,contactless
-CC:local:single,County Connection local fare,0.00,USD,,,,,smd,contactless
 CC:transfer:ba-upgrade,County Connection BART-to-bus transfer,1.00,USD,,,,,adult,clipper
 CC:transfer:ba-upgrade,County Connection BART-to-bus transfer,0.50,USD,,,,,smd,clipper
 CC:transfer:ba-upgrade,County Connection BART-to-bus transfer,1.00,USD,,,,,adult,contactless
-CC:transfer:ba-upgrade,County Connection BART-to-bus transfer,0.00,USD,,,,,smd,contactless
 CC:express-eb-regional:31-day,East Bay Regional 31-day express pass,60.00,USD,,31.0,3,1,adult,clipper
 CC:local-eb-regional:31-day,East Bay Regional 31-day local pass,60.00,USD,,31.0,3,1,adult,clipper
 CC:all:31-day,County Connection 31-day express pass,60.00,USD,,31.0,3,1,adult,clipper
@@ -10448,12 +10434,11 @@ CT:multizone:5:1-month,Caltrain 5 zone monthly pass,312.00,USD,,1.0,5,1,adult,cl
 CT:multizone:5:1-month,Caltrain 5 zone monthly pass,144.00,USD,,1.0,5,1,smdy,clipper
 CT:multizone:6:1-month,Caltrain 6 zone monthly pass,366.00,USD,,1.0,5,1,adult,clipper
 CT:multizone:6:1-month,Caltrain 6 zone monthly pass,168.00,USD,,1.0,5,1,smdy,clipper
-DE:local:single,Dumbarton Express single local fare,2.75,USD,,,,,adult,cash
-DE:local:single,Dumbarton Express single local fare,1.35,USD,,,,,smdy,cash
-DE:local:single,Dumbarton Express single local fare,2.50,USD,,,,,adult,clipper
-DE:local:single,Dumbarton Express single local fare,1.25,USD,,,,,smdy,clipper
-DE:local:single,Dumbarton Express single local fare,2.50,USD,,,,,adult,contactless
-DE:local:single,Dumbarton Express single local fare,0.00,USD,,,,,smdy,contactless
+DE:local:single,Dumbarton Express single local fare,3.00,USD,,,,,adult,cash
+DE:local:single,Dumbarton Express single local fare,1.50,USD,,,,,smdy,cash
+DE:local:single,Dumbarton Express single local fare,2.75,USD,,,,,adult,clipper
+DE:local:single,Dumbarton Express single local fare,1.37,USD,,,,,smdy,clipper
+DE:local:single,Dumbarton Express single local fare,2.75,USD,,,,,adult,contactless
 DE:transbay:single,Dumbarton Express single transbay fare,6.50,USD,,,,,adult,cash
 DE:transbay:single,Dumbarton Express single transbay fare,3.25,USD,,,,,smdy,cash
 DE:transbay:single,Dumbarton Express single transbay fare,3.25,USD,,,,,youth,cash
@@ -10463,33 +10448,23 @@ DE:transbay:single,Dumbarton Express single transbay fare,3.25,USD,,,,,smdy,clip
 DE:transbay:single,Dumbarton Express single transbay fare,3.25,USD,,,,,youth,clipper
 DE:transbay:single,Dumbarton Express single transbay fare,0.00,USD,,,,,child,clipper
 DE:transbay:single,Dumbarton Express single transbay fare,6.50,USD,,,,,adult,contactless
-DE:transbay:single,Dumbarton Express single transbay fare,0.00,USD,,,,,smdy,contactless
-DE:transbay:single,Dumbarton Express single transbay fare,0.00,USD,,,,,youth,contactless
-DE:transbay:single,Dumbarton Express single transbay fare,0.00,USD,,,,,child,contactless
-DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,3.75,USD,,,,,adult,cash
-DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,1.90,USD,,,,,smd,cash
-DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,1.90,USD,,,,,youth,cash
+DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,3.50,USD,,,,,adult,cash
+DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,1.75,USD,,,,,smd,cash
+DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,1.75,USD,,,,,youth,cash
 DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,0.00,USD,,,,,child,cash
-DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,4.00,USD,,,,,adult,clipper
-DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,2.00,USD,,,,,smd,clipper
-DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,2.00,USD,,,,,youth,clipper
+DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,3.75,USD,,,,,adult,clipper
+DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,1.88,USD,,,,,smd,clipper
+DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,1.88,USD,,,,,youth,clipper
 DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,0.00,USD,,,,,child,clipper
-DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,4.00,USD,,,,,adult,contactless
-DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,0.00,USD,,,,,smd,contactless
-DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,0.00,USD,,,,,youth,contactless
-DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,0.00,USD,,,,,child,contactless
+DE:transfer:transbay-upgrade,Dumbarton Express transbay upgrade,3.75,USD,,,,,adult,contactless
 DE:transfer:ba-credit,Dumbarton Express BART credit,-0.50,USD,,,,,adult,clipper
 DE:transfer:ba-credit,Dumbarton Express BART credit,-0.50,USD,,,,,smd,clipper
 DE:transfer:ba-credit,Dumbarton Express BART credit,-0.50,USD,,,,,youth,clipper
 DE:transfer:ba-credit,Dumbarton Express BART credit,0.00,USD,,,,,child,clipper
 DE:transfer:ba-credit,Dumbarton Express BART credit,-0.50,USD,,,,,adult,contactless
-DE:transfer:ba-credit,Dumbarton Express BART credit,0.00,USD,,,,,smd,contactless
-DE:transfer:ba-credit,Dumbarton Express BART credit,0.00,USD,,,,,youth,contactless
-DE:transfer:ba-credit,Dumbarton Express BART credit,0.00,USD,,,,,child,contactless
-DE:local:31-day,Dumbarton Express 31-day local pass,90.00,USD,,31.0,3,2,adult,cash
-DE:local:31-day,Dumbarton Express 31-day local pass,37.50,USD,,31.0,3,2,smdy,cash
-DE:transbay:31-day,Dumbarton Express 31-day transbay pass,234.00,USD,,31.0,3,2,adult,cash
-DE:transbay:31-day,Dumbarton Express 31-day transbay pass,37.50,USD,,31.0,3,2,smdy,cash
+DE:local:31-day,Dumbarton Express 31-day local pass,99.00,USD,,31.0,3,1,adult,clipper
+DE:local:31-day,Dumbarton Express 31-day local pass,41.50,USD,,31.0,3,1,smdy,clipper
+DE:transbay:31-day,Dumbarton Express 31-day transbay pass,234.00,USD,,31.0,3,1,adult,clipper
 FS:local:single,FAST Transit local fare,2.00,USD,,,,,adult,cash
 FS:local:single,FAST Transit local fare,0.00,USD,,,,,youth-2,cash
 FS:local:single,FAST Transit local fare,1.00,USD,,,,,smd,cash
@@ -10497,8 +10472,6 @@ FS:local:single,FAST Transit local fare,2.00,USD,,,,,adult,clipper
 FS:local:single,FAST Transit local fare,0.00,USD,,,,,youth-2,clipper
 FS:local:single,FAST Transit local fare,1.00,USD,,,,,smd,clipper
 FS:local:single,FAST Transit local fare,2.00,USD,,,,,adult,contactless
-FS:local:single,FAST Transit local fare,0.00,USD,,,,,youth-2,contactless
-FS:local:single,FAST Transit local fare,0.00,USD,,,,,smd,contactless
 FS:local:31-day,FAST Transit 31-day local pass,80.00,USD,,31.0,3,1,adult,cash
 FS:local:31-day,FAST Transit 31-day local pass,70.00,USD,,31.0,3,1,youth-2,cash
 FS:local:31-day,FAST Transit 31-day local pass,40.00,USD,,31.0,3,1,smd,cash
@@ -10509,165 +10482,144 @@ GF:LSSF:single,Golden Gate Ferry single Larkspur fare,14.00,USD,,,,,adult,cash
 GF:LSSF:single,Golden Gate Ferry single Larkspur fare,7.00,USD,,,,,youth,cash
 GF:LSSF:single,Golden Gate Ferry single Larkspur fare,7.00,USD,,,,,smd,cash
 GF:LSSF:single,Golden Gate Ferry single Larkspur fare,0.00,USD,,,,,child,cash
-GF:LSSF:single,Golden Gate Ferry single Larkspur fare,9.25,USD,,,,,adult,clipper
+GF:LSSF:single,Golden Gate Ferry single Larkspur fare,9.50,USD,,,,,adult,clipper
 GF:LSSF:single,Golden Gate Ferry single Larkspur fare,7.00,USD,,,,,youth,clipper
 GF:LSSF:single,Golden Gate Ferry single Larkspur fare,7.00,USD,,,,,smd,clipper
 GF:LSSF:single,Golden Gate Ferry single Larkspur fare,0.00,USD,,,,,child,clipper
-GF:LSSF:single,Golden Gate Ferry single Larkspur fare,9.25,USD,,,,,adult,contactless
-GF:LSSF:single,Golden Gate Ferry single Larkspur fare,0.00,USD,,,,,youth,contactless
-GF:LSSF:single,Golden Gate Ferry single Larkspur fare,0.00,USD,,,,,smd,contactless
-GF:LSSF:single,Golden Gate Ferry single Larkspur fare,0.00,USD,,,,,child,contactless
+GF:LSSF:single,Golden Gate Ferry single Larkspur fare,9.50,USD,,,,,adult,contactless
 GF:transfer:ma-credit,Golden Gate Ferry transfer credit,-0.50,USD,,,,,adult,clipper
 GF:transfer:ma-credit,Golden Gate Ferry transfer credit,-0.25,USD,,,,,youth,clipper
 GF:transfer:ma-credit,Golden Gate Ferry transfer credit,-0.25,USD,,,,,smd,clipper
 GF:transfer:ma-credit,Golden Gate Ferry transfer credit,0.00,USD,,,,,child,clipper
 GF:transfer:ma-credit,Golden Gate Ferry transfer credit,-0.50,USD,,,,,adult,contactless
-GF:transfer:ma-credit,Golden Gate Ferry transfer credit,0.00,USD,,,,,youth,contactless
-GF:transfer:ma-credit,Golden Gate Ferry transfer credit,0.00,USD,,,,,smd,contactless
-GF:transfer:ma-credit,Golden Gate Ferry transfer credit,0.00,USD,,,,,child,contactless
 GF:transfer:sa-credit,Golden Gate Ferry transfer credit,-1.50,USD,,,,,adult,clipper
 GF:transfer:sa-credit,Golden Gate Ferry transfer credit,-0.75,USD,,,,,youth,clipper
 GF:transfer:sa-credit,Golden Gate Ferry transfer credit,-0.75,USD,,,,,smd,clipper
 GF:transfer:sa-credit,Golden Gate Ferry transfer credit,0.00,USD,,,,,child,clipper
 GF:transfer:sa-credit,Golden Gate Ferry transfer credit,-1.50,USD,,,,,adult,contactless
-GF:transfer:sa-credit,Golden Gate Ferry transfer credit,0.00,USD,,,,,youth,contactless
-GF:transfer:sa-credit,Golden Gate Ferry transfer credit,0.00,USD,,,,,smd,contactless
-GF:transfer:sa-credit,Golden Gate Ferry transfer credit,0.00,USD,,,,,child,contactless
 GF:transfer:sf-credit,Golden Gate Ferry transfer credit,-0.50,USD,,,,,adult,clipper
 GF:transfer:sf-credit,Golden Gate Ferry transfer credit,-0.25,USD,,,,,youth,clipper
 GF:transfer:sf-credit,Golden Gate Ferry transfer credit,-0.25,USD,,,,,smd,clipper
 GF:transfer:sf-credit,Golden Gate Ferry transfer credit,0.00,USD,,,,,child,clipper
 GF:transfer:sf-credit,Golden Gate Ferry transfer credit,-0.50,USD,,,,,adult,contactless
-GF:transfer:sf-credit,Golden Gate Ferry transfer credit,0.00,USD,,,,,youth,contactless
-GF:transfer:sf-credit,Golden Gate Ferry transfer credit,0.00,USD,,,,,smd,contactless
-GF:transfer:sf-credit,Golden Gate Ferry transfer credit,0.00,USD,,,,,child,contactless
 GF:SSSF:single,Golden Gate Ferry single Sausalito fare,14.00,USD,,,,,adult,cash
 GF:SSSF:single,Golden Gate Ferry single Sausalito fare,7.00,USD,,,,,youth,cash
 GF:SSSF:single,Golden Gate Ferry single Sausalito fare,7.00,USD,,,,,smd,cash
 GF:SSSF:single,Golden Gate Ferry single Sausalito fare,0.00,USD,,,,,child,cash
-GF:SSSF:single,Golden Gate Ferry single Sausalito fare,8.25,USD,,,,,adult,clipper
+GF:SSSF:single,Golden Gate Ferry single Sausalito fare,8.50,USD,,,,,adult,clipper
 GF:SSSF:single,Golden Gate Ferry single Sausalito fare,7.00,USD,,,,,youth,clipper
 GF:SSSF:single,Golden Gate Ferry single Sausalito fare,7.00,USD,,,,,smd,clipper
 GF:SSSF:single,Golden Gate Ferry single Sausalito fare,0.00,USD,,,,,child,clipper
-GF:SSSF:single,Golden Gate Ferry single Sausalito fare,8.25,USD,,,,,adult,contactless
-GF:SSSF:single,Golden Gate Ferry single Sausalito fare,0.00,USD,,,,,youth,contactless
-GF:SSSF:single,Golden Gate Ferry single Sausalito fare,0.00,USD,,,,,smd,contactless
-GF:SSSF:single,Golden Gate Ferry single Sausalito fare,0.00,USD,,,,,child,contactless
+GF:SSSF:single,Golden Gate Ferry single Sausalito fare,8.50,USD,,,,,adult,contactless
 GF:TBSF:single,Golden Gate Ferry single Tiburon fare,14.00,USD,,,,,adult,cash
 GF:TBSF:single,Golden Gate Ferry single Tiburon fare,7.00,USD,,,,,youth,cash
 GF:TBSF:single,Golden Gate Ferry single Tiburon fare,7.00,USD,,,,,smd,cash
 GF:TBSF:single,Golden Gate Ferry single Tiburon fare,0.00,USD,,,,,child,cash
-GF:TBSF:single,Golden Gate Ferry single Tiburon fare,8.25,USD,,,,,adult,clipper
+GF:TBSF:single,Golden Gate Ferry single Tiburon fare,8.50,USD,,,,,adult,clipper
 GF:TBSF:single,Golden Gate Ferry single Tiburon fare,7.00,USD,,,,,youth,clipper
 GF:TBSF:single,Golden Gate Ferry single Tiburon fare,7.00,USD,,,,,smd,clipper
 GF:TBSF:single,Golden Gate Ferry single Tiburon fare,0.00,USD,,,,,child,clipper
-GF:TBSF:single,Golden Gate Ferry single Tiburon fare,8.25,USD,,,,,adult,contactless
-GF:TBSF:single,Golden Gate Ferry single Tiburon fare,0.00,USD,,,,,youth,contactless
-GF:TBSF:single,Golden Gate Ferry single Tiburon fare,0.00,USD,,,,,smd,contactless
-GF:TBSF:single,Golden Gate Ferry single Tiburon fare,0.00,USD,,,,,child,contactless
+GF:TBSF:single,Golden Gate Ferry single Tiburon fare,8.50,USD,,,,,adult,contactless
 GF:AISF:single,Golden Gate Ferry single Angel Island fare,15.50,USD,,,,,adult,cash
 GF:AISF:single,Golden Gate Ferry single Angel Island fare,8.00,USD,,,,,youth,cash
 GF:AISF:single,Golden Gate Ferry single Angel Island fare,8.00,USD,,,,,smd,cash
 GF:AISF:single,Golden Gate Ferry single Angel Island fare,0.00,USD,,,,,child,cash
-GF:AISF:single,Golden Gate Ferry single Angel Island fare,9.75,USD,,,,,adult,clipper
+GF:AISF:single,Golden Gate Ferry single Angel Island fare,10.00,USD,,,,,adult,clipper
 GF:AISF:single,Golden Gate Ferry single Angel Island fare,8.00,USD,,,,,youth,clipper
 GF:AISF:single,Golden Gate Ferry single Angel Island fare,8.00,USD,,,,,smd,clipper
 GF:AISF:single,Golden Gate Ferry single Angel Island fare,0.00,USD,,,,,child,clipper
-GF:AISF:single,Golden Gate Ferry single Angel Island fare,9.75,USD,,,,,adult,contactless
-GF:AISF:single,Golden Gate Ferry single Angel Island fare,0.00,USD,,,,,youth,contactless
-GF:AISF:single,Golden Gate Ferry single Angel Island fare,0.00,USD,,,,,smd,contactless
-GF:AISF:single,Golden Gate Ferry single Angel Island fare,0.00,USD,,,,,child,contactless
-GG:matrix:GG:San Francisco-GG:San Francisco,generated,5.75,USD,,,,,adult,cash
-GG:matrix:GG:San Francisco-GG:Sausalito-Marin City-Mill Valley,generated,8.75,USD,,,,,adult,cash
-GG:matrix:GG:San Francisco-GG:CorteMadera-SanRafael-Marinwood,generated,8.75,USD,,,,,adult,cash
-GG:matrix:GG:San Francisco-GG:Ignacio-Novato-San Marin,generated,10.00,USD,,,,,adult,cash
-GG:matrix:GG:San Francisco-GG:Petaluma-Cotati-Rohnert Park,generated,14.75,USD,,,,,adult,cash
-GG:matrix:GG:San Francisco-GG:Santa Rosa,generated,14.75,USD,,,,,adult,cash
-GG:matrix:GG:San Francisco-GG:East Bay,generated,5.50,USD,,,,,adult,cash
+GF:AISF:single,Golden Gate Ferry single Angel Island fare,10.00,USD,,,,,adult,contactless
+GG:matrix:GG:San Francisco-GG:San Francisco,generated,6.00,USD,,,,,adult,cash
+GG:matrix:GG:San Francisco-GG:Sausalito-Marin City-Mill Valley,generated,9.00,USD,,,,,adult,cash
+GG:matrix:GG:San Francisco-GG:CorteMadera-SanRafael-Marinwood,generated,9.00,USD,,,,,adult,cash
+GG:matrix:GG:San Francisco-GG:Ignacio-Novato-San Marin,generated,10.25,USD,,,,,adult,cash
+GG:matrix:GG:San Francisco-GG:Petaluma-Cotati-Rohnert Park,generated,15.00,USD,,,,,adult,cash
+GG:matrix:GG:San Francisco-GG:Santa Rosa,generated,15.00,USD,,,,,adult,cash
+GG:matrix:GG:San Francisco-GG:East Bay,generated,5.90,USD,,,,,adult,cash
 GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Sausalito-Marin City-Mill Valley,generated,2.00,USD,,,,,adult,cash
 GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:CorteMadera-SanRafael-Marinwood,generated,2.00,USD,,,,,adult,cash
 GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Ignacio-Novato-San Marin,generated,2.00,USD,,,,,adult,cash
-GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Petaluma-Cotati-Rohnert Park,generated,10.00,USD,,,,,adult,cash
-GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Santa Rosa,generated,10.00,USD,,,,,adult,cash
-GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:East Bay,generated,7.50,USD,,,,,adult,cash
+GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Petaluma-Cotati-Rohnert Park,generated,10.25,USD,,,,,adult,cash
+GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Santa Rosa,generated,10.25,USD,,,,,adult,cash
+GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:East Bay,generated,7.75,USD,,,,,adult,cash
 GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:CorteMadera-SanRafael-Marinwood,generated,2.00,USD,,,,,adult,cash
 GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:Ignacio-Novato-San Marin,generated,2.00,USD,,,,,adult,cash
-GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:Petaluma-Cotati-Rohnert Park,generated,10.00,USD,,,,,adult,cash
-GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:Santa Rosa,generated,10.00,USD,,,,,adult,cash
-GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:East Bay,generated,7.50,USD,,,,,adult,cash
+GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:Petaluma-Cotati-Rohnert Park,generated,10.25,USD,,,,,adult,cash
+GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:Santa Rosa,generated,10.25,USD,,,,,adult,cash
+GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:East Bay,generated,7.75,USD,,,,,adult,cash
 GG:matrix:GG:Ignacio-Novato-San Marin-GG:Ignacio-Novato-San Marin,generated,2.00,USD,,,,,adult,cash
-GG:matrix:GG:Ignacio-Novato-San Marin-GG:Petaluma-Cotati-Rohnert Park,generated,8.25,USD,,,,,adult,cash
-GG:matrix:GG:Ignacio-Novato-San Marin-GG:Santa Rosa,generated,8.25,USD,,,,,adult,cash
-GG:matrix:GG:Ignacio-Novato-San Marin-GG:East Bay,generated,7.50,USD,,,,,adult,cash
+GG:matrix:GG:Ignacio-Novato-San Marin-GG:Petaluma-Cotati-Rohnert Park,generated,9.00,USD,,,,,adult,cash
+GG:matrix:GG:Ignacio-Novato-San Marin-GG:Santa Rosa,generated,9.00,USD,,,,,adult,cash
+GG:matrix:GG:Ignacio-Novato-San Marin-GG:East Bay,generated,7.75,USD,,,,,adult,cash
 GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:Petaluma-Cotati-Rohnert Park,generated,3.00,USD,,,,,adult,cash
 GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:Santa Rosa,generated,3.00,USD,,,,,adult,cash
-GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:East Bay,generated,13.50,USD,,,,,adult,cash
+GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:East Bay,generated,15.00,USD,,,,,adult,cash
 GG:matrix:GG:Santa Rosa-GG:Santa Rosa,generated,3.00,USD,,,,,adult,cash
-GG:matrix:GG:Santa Rosa-GG:East Bay,generated,13.50,USD,,,,,adult,cash
+GG:matrix:GG:Santa Rosa-GG:East Bay,generated,15.00,USD,,,,,adult,cash
 GG:matrix:GG:East Bay-GG:East Bay,generated,3.00,USD,,,,,adult,cash
-GG:matrix:GG:San Francisco-GG:San Francisco,generated,4.60,USD,,,,,adult,clipper
-GG:matrix:GG:San Francisco-GG:Sausalito-Marin City-Mill Valley,generated,7.00,USD,,,,,adult,clipper
-GG:matrix:GG:San Francisco-GG:CorteMadera-SanRafael-Marinwood,generated,7.00,USD,,,,,adult,clipper
-GG:matrix:GG:San Francisco-GG:Ignacio-Novato-San Marin,generated,8.00,USD,,,,,adult,clipper
-GG:matrix:GG:San Francisco-GG:Petaluma-Cotati-Rohnert Park,generated,11.50,USD,,,,,adult,clipper
-GG:matrix:GG:San Francisco-GG:Santa Rosa,generated,11.50,USD,,,,,adult,clipper
-GG:matrix:GG:San Francisco-GG:East Bay,generated,5.50,USD,,,,,adult,clipper
+GG:matrix:GG:San Francisco-GG:San Francisco,generated,4.80,USD,,,,,adult,clipper
+GG:matrix:GG:San Francisco-GG:Sausalito-Marin City-Mill Valley,generated,7.20,USD,,,,,adult,clipper
+GG:matrix:GG:San Francisco-GG:CorteMadera-SanRafael-Marinwood,generated,7.20,USD,,,,,adult,clipper
+GG:matrix:GG:San Francisco-GG:Ignacio-Novato-San Marin,generated,8.20,USD,,,,,adult,clipper
+GG:matrix:GG:San Francisco-GG:Petaluma-Cotati-Rohnert Park,generated,12.00,USD,,,,,adult,clipper
+GG:matrix:GG:San Francisco-GG:Santa Rosa,generated,12.00,USD,,,,,adult,clipper
+GG:matrix:GG:San Francisco-GG:East Bay,generated,5.90,USD,,,,,adult,clipper
 GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Sausalito-Marin City-Mill Valley,generated,1.80,USD,,,,,adult,clipper
 GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:CorteMadera-SanRafael-Marinwood,generated,1.80,USD,,,,,adult,clipper
 GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Ignacio-Novato-San Marin,generated,1.80,USD,,,,,adult,clipper
-GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Petaluma-Cotati-Rohnert Park,generated,8.00,USD,,,,,adult,clipper
-GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Santa Rosa,generated,8.00,USD,,,,,adult,clipper
-GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:East Bay,generated,6.00,USD,,,,,adult,clipper
+GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Petaluma-Cotati-Rohnert Park,generated,8.20,USD,,,,,adult,clipper
+GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Santa Rosa,generated,8.20,USD,,,,,adult,clipper
+GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:East Bay,generated,6.20,USD,,,,,adult,clipper
 GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:CorteMadera-SanRafael-Marinwood,generated,1.80,USD,,,,,adult,clipper
 GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:Ignacio-Novato-San Marin,generated,1.80,USD,,,,,adult,clipper
-GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:Petaluma-Cotati-Rohnert Park,generated,8.00,USD,,,,,adult,clipper
-GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:Santa Rosa,generated,8.00,USD,,,,,adult,clipper
-GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:East Bay,generated,6.00,USD,,,,,adult,clipper
+GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:Petaluma-Cotati-Rohnert Park,generated,8.20,USD,,,,,adult,clipper
+GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:Santa Rosa,generated,8.20,USD,,,,,adult,clipper
+GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:East Bay,generated,6.20,USD,,,,,adult,clipper
 GG:matrix:GG:Ignacio-Novato-San Marin-GG:Ignacio-Novato-San Marin,generated,1.80,USD,,,,,adult,clipper
 GG:matrix:GG:Ignacio-Novato-San Marin-GG:Petaluma-Cotati-Rohnert Park,generated,6.60,USD,,,,,adult,clipper
 GG:matrix:GG:Ignacio-Novato-San Marin-GG:Santa Rosa,generated,6.60,USD,,,,,adult,clipper
-GG:matrix:GG:Ignacio-Novato-San Marin-GG:East Bay,generated,6.00,USD,,,,,adult,clipper
+GG:matrix:GG:Ignacio-Novato-San Marin-GG:East Bay,generated,6.20,USD,,,,,adult,clipper
 GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:Petaluma-Cotati-Rohnert Park,generated,2.40,USD,,,,,adult,clipper
 GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:Santa Rosa,generated,2.40,USD,,,,,adult,clipper
-GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:East Bay,generated,10.80,USD,,,,,adult,clipper
+GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:East Bay,generated,12.00,USD,,,,,adult,clipper
 GG:matrix:GG:Santa Rosa-GG:Santa Rosa,generated,2.40,USD,,,,,adult,clipper
-GG:matrix:GG:Santa Rosa-GG:East Bay,generated,10.80,USD,,,,,adult,clipper
+GG:matrix:GG:Santa Rosa-GG:East Bay,generated,12.00,USD,,,,,adult,clipper
 GG:matrix:GG:East Bay-GG:East Bay,generated,2.40,USD,,,,,adult,clipper
-GG:matrix:GG:San Francisco-GG:San Francisco,generated,4.60,USD,,,,,adult,contactless
-GG:matrix:GG:San Francisco-GG:Sausalito-Marin City-Mill Valley,generated,7.00,USD,,,,,adult,contactless
-GG:matrix:GG:San Francisco-GG:CorteMadera-SanRafael-Marinwood,generated,7.00,USD,,,,,adult,contactless
-GG:matrix:GG:San Francisco-GG:Ignacio-Novato-San Marin,generated,8.00,USD,,,,,adult,contactless
-GG:matrix:GG:San Francisco-GG:Petaluma-Cotati-Rohnert Park,generated,11.50,USD,,,,,adult,contactless
-GG:matrix:GG:San Francisco-GG:Santa Rosa,generated,11.50,USD,,,,,adult,contactless
-GG:matrix:GG:San Francisco-GG:East Bay,generated,5.50,USD,,,,,adult,contactless
+GG:matrix:GG:San Francisco-GG:San Francisco,generated,4.80,USD,,,,,adult,contactless
+GG:matrix:GG:San Francisco-GG:Sausalito-Marin City-Mill Valley,generated,7.20,USD,,,,,adult,contactless
+GG:matrix:GG:San Francisco-GG:CorteMadera-SanRafael-Marinwood,generated,7.20,USD,,,,,adult,contactless
+GG:matrix:GG:San Francisco-GG:Ignacio-Novato-San Marin,generated,8.20,USD,,,,,adult,contactless
+GG:matrix:GG:San Francisco-GG:Petaluma-Cotati-Rohnert Park,generated,12.00,USD,,,,,adult,contactless
+GG:matrix:GG:San Francisco-GG:Santa Rosa,generated,12.00,USD,,,,,adult,contactless
+GG:matrix:GG:San Francisco-GG:East Bay,generated,5.90,USD,,,,,adult,contactless
 GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Sausalito-Marin City-Mill Valley,generated,1.80,USD,,,,,adult,contactless
 GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:CorteMadera-SanRafael-Marinwood,generated,1.80,USD,,,,,adult,contactless
 GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Ignacio-Novato-San Marin,generated,1.80,USD,,,,,adult,contactless
-GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Petaluma-Cotati-Rohnert Park,generated,8.00,USD,,,,,adult,contactless
-GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Santa Rosa,generated,8.00,USD,,,,,adult,contactless
-GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:East Bay,generated,6.00,USD,,,,,adult,contactless
+GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Petaluma-Cotati-Rohnert Park,generated,8.20,USD,,,,,adult,contactless
+GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Santa Rosa,generated,8.20,USD,,,,,adult,contactless
+GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:East Bay,generated,6.20,USD,,,,,adult,contactless
 GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:CorteMadera-SanRafael-Marinwood,generated,1.80,USD,,,,,adult,contactless
 GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:Ignacio-Novato-San Marin,generated,1.80,USD,,,,,adult,contactless
-GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:Petaluma-Cotati-Rohnert Park,generated,8.00,USD,,,,,adult,contactless
-GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:Santa Rosa,generated,8.00,USD,,,,,adult,contactless
-GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:East Bay,generated,6.00,USD,,,,,adult,contactless
+GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:Petaluma-Cotati-Rohnert Park,generated,8.20,USD,,,,,adult,contactless
+GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:Santa Rosa,generated,8.20,USD,,,,,adult,contactless
+GG:matrix:GG:CorteMadera-SanRafael-Marinwood-GG:East Bay,generated,6.20,USD,,,,,adult,contactless
 GG:matrix:GG:Ignacio-Novato-San Marin-GG:Ignacio-Novato-San Marin,generated,1.80,USD,,,,,adult,contactless
 GG:matrix:GG:Ignacio-Novato-San Marin-GG:Petaluma-Cotati-Rohnert Park,generated,6.60,USD,,,,,adult,contactless
 GG:matrix:GG:Ignacio-Novato-San Marin-GG:Santa Rosa,generated,6.60,USD,,,,,adult,contactless
-GG:matrix:GG:Ignacio-Novato-San Marin-GG:East Bay,generated,6.00,USD,,,,,adult,contactless
+GG:matrix:GG:Ignacio-Novato-San Marin-GG:East Bay,generated,6.20,USD,,,,,adult,contactless
 GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:Petaluma-Cotati-Rohnert Park,generated,2.40,USD,,,,,adult,contactless
 GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:Santa Rosa,generated,2.40,USD,,,,,adult,contactless
-GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:East Bay,generated,10.80,USD,,,,,adult,contactless
+GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:East Bay,generated,12.00,USD,,,,,adult,contactless
 GG:matrix:GG:Santa Rosa-GG:Santa Rosa,generated,2.40,USD,,,,,adult,contactless
-GG:matrix:GG:Santa Rosa-GG:East Bay,generated,10.80,USD,,,,,adult,contactless
+GG:matrix:GG:Santa Rosa-GG:East Bay,generated,12.00,USD,,,,,adult,contactless
 GG:matrix:GG:East Bay-GG:East Bay,generated,2.40,USD,,,,,adult,contactless
-GG:matrix:GG:San Francisco-GG:San Francisco,generated,2.75,USD,,,,,smdy,cash
-GG:matrix:GG:San Francisco-GG:Sausalito-Marin City-Mill Valley,generated,4.25,USD,,,,,smdy,cash
-GG:matrix:GG:San Francisco-GG:CorteMadera-SanRafael-Marinwood,generated,4.25,USD,,,,,smdy,cash
+GG:matrix:GG:San Francisco-GG:San Francisco,generated,3.00,USD,,,,,smdy,cash
+GG:matrix:GG:San Francisco-GG:Sausalito-Marin City-Mill Valley,generated,4.50,USD,,,,,smdy,cash
+GG:matrix:GG:San Francisco-GG:CorteMadera-SanRafael-Marinwood,generated,4.50,USD,,,,,smdy,cash
 GG:matrix:GG:San Francisco-GG:Ignacio-Novato-San Marin,generated,5.00,USD,,,,,smdy,cash
-GG:matrix:GG:San Francisco-GG:Petaluma-Cotati-Rohnert Park,generated,7.25,USD,,,,,smdy,cash
-GG:matrix:GG:San Francisco-GG:Santa Rosa,generated,7.25,USD,,,,,smdy,cash
-GG:matrix:GG:San Francisco-GG:East Bay,generated,2.75,USD,,,,,smdy,cash
+GG:matrix:GG:San Francisco-GG:Petaluma-Cotati-Rohnert Park,generated,7.50,USD,,,,,smdy,cash
+GG:matrix:GG:San Francisco-GG:Santa Rosa,generated,7.50,USD,,,,,smdy,cash
+GG:matrix:GG:San Francisco-GG:East Bay,generated,2.95,USD,,,,,smdy,cash
 GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Sausalito-Marin City-Mill Valley,generated,1.00,USD,,,,,smdy,cash
 GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:CorteMadera-SanRafael-Marinwood,generated,1.00,USD,,,,,smdy,cash
 GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Ignacio-Novato-San Marin,generated,1.00,USD,,,,,smdy,cash
@@ -10685,17 +10637,17 @@ GG:matrix:GG:Ignacio-Novato-San Marin-GG:Santa Rosa,generated,4.00,USD,,,,,smdy,
 GG:matrix:GG:Ignacio-Novato-San Marin-GG:East Bay,generated,3.75,USD,,,,,smdy,cash
 GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:Petaluma-Cotati-Rohnert Park,generated,1.50,USD,,,,,smdy,cash
 GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:Santa Rosa,generated,1.50,USD,,,,,smdy,cash
-GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:East Bay,generated,6.75,USD,,,,,smdy,cash
+GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:East Bay,generated,7.50,USD,,,,,smdy,cash
 GG:matrix:GG:Santa Rosa-GG:Santa Rosa,generated,1.50,USD,,,,,smdy,cash
-GG:matrix:GG:Santa Rosa-GG:East Bay,generated,6.75,USD,,,,,smdy,cash
+GG:matrix:GG:Santa Rosa-GG:East Bay,generated,7.50,USD,,,,,smdy,cash
 GG:matrix:GG:East Bay-GG:East Bay,generated,1.50,USD,,,,,smdy,cash
-GG:matrix:GG:San Francisco-GG:San Francisco,generated,2.75,USD,,,,,smdy,clipper
-GG:matrix:GG:San Francisco-GG:Sausalito-Marin City-Mill Valley,generated,4.25,USD,,,,,smdy,clipper
-GG:matrix:GG:San Francisco-GG:CorteMadera-SanRafael-Marinwood,generated,4.25,USD,,,,,smdy,clipper
+GG:matrix:GG:San Francisco-GG:San Francisco,generated,3.00,USD,,,,,smdy,clipper
+GG:matrix:GG:San Francisco-GG:Sausalito-Marin City-Mill Valley,generated,4.50,USD,,,,,smdy,clipper
+GG:matrix:GG:San Francisco-GG:CorteMadera-SanRafael-Marinwood,generated,4.50,USD,,,,,smdy,clipper
 GG:matrix:GG:San Francisco-GG:Ignacio-Novato-San Marin,generated,5.00,USD,,,,,smdy,clipper
-GG:matrix:GG:San Francisco-GG:Petaluma-Cotati-Rohnert Park,generated,7.25,USD,,,,,smdy,clipper
-GG:matrix:GG:San Francisco-GG:Santa Rosa,generated,7.25,USD,,,,,smdy,clipper
-GG:matrix:GG:San Francisco-GG:East Bay,generated,2.75,USD,,,,,smdy,clipper
+GG:matrix:GG:San Francisco-GG:Petaluma-Cotati-Rohnert Park,generated,7.50,USD,,,,,smdy,clipper
+GG:matrix:GG:San Francisco-GG:Santa Rosa,generated,7.50,USD,,,,,smdy,clipper
+GG:matrix:GG:San Francisco-GG:East Bay,generated,2.95,USD,,,,,smdy,clipper
 GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Sausalito-Marin City-Mill Valley,generated,1.00,USD,,,,,smdy,clipper
 GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:CorteMadera-SanRafael-Marinwood,generated,1.00,USD,,,,,smdy,clipper
 GG:matrix:GG:Sausalito-Marin City-Mill Valley-GG:Ignacio-Novato-San Marin,generated,1.00,USD,,,,,smdy,clipper
@@ -10713,9 +10665,9 @@ GG:matrix:GG:Ignacio-Novato-San Marin-GG:Santa Rosa,generated,4.00,USD,,,,,smdy,
 GG:matrix:GG:Ignacio-Novato-San Marin-GG:East Bay,generated,3.75,USD,,,,,smdy,clipper
 GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:Petaluma-Cotati-Rohnert Park,generated,1.50,USD,,,,,smdy,clipper
 GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:Santa Rosa,generated,1.50,USD,,,,,smdy,clipper
-GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:East Bay,generated,6.75,USD,,,,,smdy,clipper
+GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:East Bay,generated,7.50,USD,,,,,smdy,clipper
 GG:matrix:GG:Santa Rosa-GG:Santa Rosa,generated,1.50,USD,,,,,smdy,clipper
-GG:matrix:GG:Santa Rosa-GG:East Bay,generated,6.75,USD,,,,,smdy,clipper
+GG:matrix:GG:Santa Rosa-GG:East Bay,generated,7.50,USD,,,,,smdy,clipper
 GG:matrix:GG:East Bay-GG:East Bay,generated,1.50,USD,,,,,smdy,clipper
 GG:transfer:ma-credit,Golden Gate Transit transfer credit: Marin Transit,-2.00,USD,,,,,adult,clipper
 GG:transfer:ma-credit,Golden Gate Transit transfer credit: Marin Transit,-1.00,USD,,,,,smdy,clipper
@@ -10742,8 +10694,6 @@ MA:local:single,Marin Transit local fare,1.80,USD,,,,,adult,clipper
 MA:local:single,Marin Transit local fare,1.00,USD,,,,,youth,clipper
 MA:local:single,Marin Transit local fare,1.00,USD,,,,,smd,clipper
 MA:local:single,Marin Transit local fare,1.80,USD,,,,,adult,contactless
-MA:local:single,Marin Transit local fare,0.00,USD,,,,,youth,contactless
-MA:local:single,Marin Transit local fare,0.00,USD,,,,,smd,contactless
 MA:local:1-day,Marin Transit 1-day local pass,5.00,USD,,1.0,3,1,adult,cash
 MA:local:1-day,Marin Transit 1-day local pass,2.50,USD,,1.0,3,1,youth,cash
 MA:local:1-day,Marin Transit 1-day local pass,2.50,USD,,1.0,3,1,smd,cash
@@ -10755,7 +10705,6 @@ MA:muir:single,Marin Transit Muir Woods Shuttle,0.00,USD,,,,,MA:muir-youth,cash
 MA:transfer:sa-credit,Marin Transit transfer credit: SMART,-2.25,USD,,,,,adult,clipper
 MA:transfer:sa-credit,Marin Transit transfer credit: SMART,-1.10,USD,,,,,smdy,clipper
 MA:transfer:sa-credit,Marin Transit transfer credit: SMART,-2.25,USD,,,,,adult,contactless
-MA:transfer:sa-credit,Marin Transit transfer credit: SMART,0.00,USD,,,,,smdy,contactless
 RV:local:single,Rio Vista single local fare,2.00,USD,,,,,adult,cash
 RV:local:single,Rio Vista single local fare,1.00,USD,,,,,smd,cash
 RV:local:single,Rio Vista single local fare,0.00,USD,,,,,child,cash
@@ -10808,8 +10757,6 @@ SB:HB:single,San Francisco Bay Ferry: Harbor Bay,4.90,USD,,,,,adult,clipper
 SB:HB:single,San Francisco Bay Ferry: Harbor Bay,2.40,USD,,,,,smdy,clipper
 SB:HB:single,San Francisco Bay Ferry: Harbor Bay,0.00,USD,,,,,child,clipper
 SB:HB:single,San Francisco Bay Ferry: Harbor Bay,4.90,USD,,,,,adult,contactless
-SB:HB:single,San Francisco Bay Ferry: Harbor Bay,0.00,USD,,,,,smdy,contactless
-SB:HB:single,San Francisco Bay Ferry: Harbor Bay,0.00,USD,,,,,child,contactless
 SB:SEA:single,San Francisco Bay Ferry: Alameda Seaplane,4.90,USD,,,,,adult,ticket
 SB:SEA:single,San Francisco Bay Ferry: Alameda Seaplane,2.40,USD,,,,,smdy,ticket
 SB:SEA:single,San Francisco Bay Ferry: Alameda Seaplane,0.00,USD,,,,,child,ticket
@@ -10817,8 +10764,6 @@ SB:SEA:single,San Francisco Bay Ferry: Alameda Seaplane,4.90,USD,,,,,adult,clipp
 SB:SEA:single,San Francisco Bay Ferry: Alameda Seaplane,2.40,USD,,,,,smdy,clipper
 SB:SEA:single,San Francisco Bay Ferry: Alameda Seaplane,0.00,USD,,,,,child,clipper
 SB:SEA:single,San Francisco Bay Ferry: Alameda Seaplane,4.90,USD,,,,,adult,contactless
-SB:SEA:single,San Francisco Bay Ferry: Alameda Seaplane,0.00,USD,,,,,smdy,contactless
-SB:SEA:single,San Francisco Bay Ferry: Alameda Seaplane,0.00,USD,,,,,child,contactless
 SB:OA:single,San Francisco Bay Ferry: Oakland & Alameda,4.90,USD,,,,,adult,ticket
 SB:OA:single,San Francisco Bay Ferry: Oakland & Alameda,2.40,USD,,,,,smdy,ticket
 SB:OA:single,San Francisco Bay Ferry: Oakland & Alameda,0.00,USD,,,,,child,ticket
@@ -10826,8 +10771,6 @@ SB:OA:single,San Francisco Bay Ferry: Oakland & Alameda,4.90,USD,,,,,adult,clipp
 SB:OA:single,San Francisco Bay Ferry: Oakland & Alameda,2.40,USD,,,,,smdy,clipper
 SB:OA:single,San Francisco Bay Ferry: Oakland & Alameda,0.00,USD,,,,,child,clipper
 SB:OA:single,San Francisco Bay Ferry: Oakland & Alameda,4.90,USD,,,,,adult,contactless
-SB:OA:single,San Francisco Bay Ferry: Oakland & Alameda,0.00,USD,,,,,smdy,contactless
-SB:OA:single,San Francisco Bay Ferry: Oakland & Alameda,0.00,USD,,,,,child,contactless
 SB:RCH:single,San Francisco Bay Ferry: Richmond,4.90,USD,,,,,adult,ticket
 SB:RCH:single,San Francisco Bay Ferry: Richmond,2.40,USD,,,,,smdy,ticket
 SB:RCH:single,San Francisco Bay Ferry: Richmond,0.00,USD,,,,,child,ticket
@@ -10835,8 +10778,6 @@ SB:RCH:single,San Francisco Bay Ferry: Richmond,4.90,USD,,,,,adult,clipper
 SB:RCH:single,San Francisco Bay Ferry: Richmond,2.40,USD,,,,,smdy,clipper
 SB:RCH:single,San Francisco Bay Ferry: Richmond,0.00,USD,,,,,child,clipper
 SB:RCH:single,San Francisco Bay Ferry: Richmond,4.90,USD,,,,,adult,contactless
-SB:RCH:single,San Francisco Bay Ferry: Richmond,0.00,USD,,,,,smdy,contactless
-SB:RCH:single,San Francisco Bay Ferry: Richmond,0.00,USD,,,,,child,contactless
 SB:SSF:single,San Francisco Bay Ferry: South San Francisco,7.40,USD,,,,,adult,ticket
 SB:SSF:single,San Francisco Bay Ferry: South San Francisco,3.70,USD,,,,,smdy,ticket
 SB:SSF:single,San Francisco Bay Ferry: South San Francisco,0.00,USD,,,,,child,ticket
@@ -10844,8 +10785,6 @@ SB:SSF:single,San Francisco Bay Ferry: South San Francisco,7.40,USD,,,,,adult,cl
 SB:SSF:single,San Francisco Bay Ferry: South San Francisco,3.70,USD,,,,,smdy,clipper
 SB:SSF:single,San Francisco Bay Ferry: South San Francisco,0.00,USD,,,,,child,clipper
 SB:SSF:single,San Francisco Bay Ferry: South San Francisco,7.40,USD,,,,,adult,contactless
-SB:SSF:single,San Francisco Bay Ferry: South San Francisco,0.00,USD,,,,,smdy,contactless
-SB:SSF:single,San Francisco Bay Ferry: South San Francisco,0.00,USD,,,,,child,contactless
 SB:VJO:single,San Francisco Bay Ferry: Vallejo,9.90,USD,,,,,adult,ticket
 SB:VJO:single,San Francisco Bay Ferry: Vallejo,4.90,USD,,,,,smdy,ticket
 SB:VJO:single,San Francisco Bay Ferry: Vallejo,0.00,USD,,,,,child,ticket
@@ -10853,18 +10792,13 @@ SB:VJO:single,San Francisco Bay Ferry: Vallejo,9.90,USD,,,,,adult,clipper
 SB:VJO:single,San Francisco Bay Ferry: Vallejo,4.90,USD,,,,,smdy,clipper
 SB:VJO:single,San Francisco Bay Ferry: Vallejo,0.00,USD,,,,,child,clipper
 SB:VJO:single,San Francisco Bay Ferry: Vallejo,9.90,USD,,,,,adult,contactless
-SB:VJO:single,San Francisco Bay Ferry: Vallejo,0.00,USD,,,,,smdy,contactless
-SB:VJO:single,San Francisco Bay Ferry: Vallejo,0.00,USD,,,,,child,contactless
 SB:transfer:ac-credit,San Francisco Bay Ferry: Transfer credit from AC Transit,-2.25,USD,,,,,adult,clipper
 SB:transfer:ac-credit,San Francisco Bay Ferry: Transfer credit from AC Transit,-1.12,USD,,,,,smdy,clipper
 SB:transfer:ac-credit,San Francisco Bay Ferry: Transfer credit from AC Transit,-1.12,USD,,,,,child,clipper
 SB:transfer:ac-credit,San Francisco Bay Ferry: Transfer credit from AC Transit,-2.25,USD,,,,,adult,contactless
-SB:transfer:ac-credit,San Francisco Bay Ferry: Transfer credit from AC Transit,0.00,USD,,,,,smdy,contactless
-SB:transfer:ac-credit,San Francisco Bay Ferry: Transfer credit from AC Transit,0.00,USD,,,,,child,contactless
 SB:transfer:sf-credit,San Francisco Bay Ferry: Transfer credit from Muni,-0.50,USD,,,,,adult,clipper
 SB:transfer:sf-credit,San Francisco Bay Ferry: Transfer credit from Muni,-0.50,USD,,,,,smdy,clipper
 SB:transfer:sf-credit,San Francisco Bay Ferry: Transfer credit from Muni,-0.50,USD,,,,,adult,contactless
-SB:transfer:sf-credit,San Francisco Bay Ferry: Transfer credit from Muni,0.00,USD,,,,,smdy,contactless
 SB:transfer:st-credit,San Francisco Bay Ferry: Transfer credit from SolTrans,-2.00,USD,,,,,adult,cash
 SB:transfer:st-credit,San Francisco Bay Ferry: Transfer credit from SolTrans,-1.75,USD,,,,,youth,cash
 SB:transfer:st-credit,San Francisco Bay Ferry: Transfer credit from SolTrans,-1.00,USD,,,,,smd,cash
@@ -10875,8 +10809,6 @@ SC:local:single,VTA single local fare,2.50,USD,,,,,adult,clipper
 SC:local:single,VTA single local fare,1.25,USD,,,,,youth,clipper
 SC:local:single,VTA single local fare,1.00,USD,,,,,smd,clipper
 SC:local:single,VTA single local fare,2.50,USD,,,,,adult,contactless
-SC:local:single,VTA single local fare,0.00,USD,,,,,youth,contactless
-SC:local:single,VTA single local fare,0.00,USD,,,,,smd,contactless
 SC:express:single,VTA single express fare,5.00,USD,,,,,adult,cash
 SC:express:single,VTA single express fare,1.25,USD,,,,,youth,cash
 SC:express:single,VTA single express fare,1.00,USD,,,,,smd,cash
@@ -10884,22 +10816,16 @@ SC:express:single,VTA single express fare,5.00,USD,,,,,adult,clipper
 SC:express:single,VTA single express fare,1.25,USD,,,,,youth,clipper
 SC:express:single,VTA single express fare,1.00,USD,,,,,smd,clipper
 SC:express:single,VTA single express fare,5.00,USD,,,,,adult,contactless
-SC:express:single,VTA single express fare,0.00,USD,,,,,youth,contactless
-SC:express:single,VTA single express fare,0.00,USD,,,,,smd,contactless
 SC:transfer:ba-credit,VTA BART transfer credit,-0.50,USD,,,,,adult,clipper
 SC:transfer:ba-credit,VTA BART transfer credit,-0.50,USD,,,,,adult,contactless
 SC:transfer:acde-express-upgrade,VTA AC/DE transfer credit,-2.50,USD,,,,,adult,clipper
 SC:transfer:acde-express-upgrade,VTA AC/DE transfer credit,-1.25,USD,,,,,youth,clipper
 SC:transfer:acde-express-upgrade,VTA AC/DE transfer credit,-1.00,USD,,,,,smd,clipper
 SC:transfer:acde-express-upgrade,VTA AC/DE transfer credit,-2.50,USD,,,,,adult,contactless
-SC:transfer:acde-express-upgrade,VTA AC/DE transfer credit,0.00,USD,,,,,youth,contactless
-SC:transfer:acde-express-upgrade,VTA AC/DE transfer credit,0.00,USD,,,,,smd,contactless
 SC:transfer:express-upgrade,VTA AC/DE transfer credit,-2.50,USD,,,,,adult,clipper
 SC:transfer:express-upgrade,VTA AC/DE transfer credit,-1.25,USD,,,,,youth,clipper
 SC:transfer:express-upgrade,VTA AC/DE transfer credit,-1.00,USD,,,,,smd,clipper
 SC:transfer:express-upgrade,VTA AC/DE transfer credit,-2.50,USD,,,,,adult,contactless
-SC:transfer:express-upgrade,VTA AC/DE transfer credit,0.00,USD,,,,,youth,contactless
-SC:transfer:express-upgrade,VTA AC/DE transfer credit,0.00,USD,,,,,smd,contactless
 SC:transfer:free,VTA free transfer,0.00,USD,,,,,adult,cash
 SC:transfer:free,VTA free transfer,0.00,USD,,,,,youth,cash
 SC:transfer:free,VTA free transfer,0.00,USD,,,,,smd,cash
@@ -10907,14 +10833,10 @@ SC:transfer:free,VTA free transfer,0.00,USD,,,,,adult,clipper
 SC:transfer:free,VTA free transfer,0.00,USD,,,,,youth,clipper
 SC:transfer:free,VTA free transfer,0.00,USD,,,,,smd,clipper
 SC:transfer:free,VTA free transfer,0.00,USD,,,,,adult,contactless
-SC:transfer:free,VTA free transfer,0.00,USD,,,,,youth,contactless
-SC:transfer:free,VTA free transfer,0.00,USD,,,,,smd,contactless
 SC:transfer:free-clipper,VTA free transfer,0.00,USD,,,,,adult,clipper
 SC:transfer:free-clipper,VTA free transfer,0.00,USD,,,,,youth,clipper
 SC:transfer:free-clipper,VTA free transfer,0.00,USD,,,,,smd,clipper
 SC:transfer:free-clipper,VTA free transfer,0.00,USD,,,,,adult,contactless
-SC:transfer:free-clipper,VTA free transfer,0.00,USD,,,,,youth,contactless
-SC:transfer:free-clipper,VTA free transfer,0.00,USD,,,,,smd,contactless
 SC:local:1-day,VTA local day pass,7.50,USD,,1.0,3,1,adult,clipper
 SC:local:1-day,VTA local day pass,3.75,USD,,1.0,3,1,youth,clipper
 SC:local:1-day,VTA local day pass,3.00,USD,,1.0,3,1,smd,clipper
@@ -10946,20 +10868,14 @@ SF:local:single,Muni single local fare,2.85,USD,,,,,adult,munimobile
 SF:local:single,Muni single local fare,0.00,USD,,,,,youth,munimobile
 SF:local:single,Muni single local fare,1.40,USD,,,,,smd,munimobile
 SF:local:single,Muni single local fare,2.85,USD,,,,,adult,contactless
-SF:local:single,Muni single local fare,0.00,USD,,,,,youth,contactless
-SF:local:single,Muni single local fare,0.00,USD,,,,,smd,contactless
-SF:cablecars:single,Muni cable car single fare,8.00,USD,,,,,adult,cash
-SF:cablecars:single,Muni cable car single fare,8.00,USD,,,,,youth,cash
-SF:cablecars:single,Muni cable car single fare,8.00,USD,,,,,smd,cash
-SF:cablecars:single,Muni cable car single fare,8.00,USD,,,,,adult,clipper
-SF:cablecars:single,Muni cable car single fare,8.00,USD,,,,,youth,clipper
-SF:cablecars:single,Muni cable car single fare,8.00,USD,,,,,smd,clipper
-SF:cablecars:single,Muni cable car single fare,8.00,USD,,,,,adult,munimobile
-SF:cablecars:single,Muni cable car single fare,8.00,USD,,,,,youth,munimobile
-SF:cablecars:single,Muni cable car single fare,8.00,USD,,,,,smd,munimobile
-SF:cablecars:single,Muni cable car single fare,8.00,USD,,,,,adult,contactless
-SF:cablecars:single,Muni cable car single fare,0.00,USD,,,,,youth,contactless
-SF:cablecars:single,Muni cable car single fare,0.00,USD,,,,,smd,contactless
+SF:cablecars:single,Muni cable car single fare,9.00,USD,,,,,adult,cash
+SF:cablecars:single,Muni cable car single fare,0.00,USD,,,,,child,cash
+SF:cablecars:single,Muni cable car single fare,9.00,USD,,,,,adult,clipper
+SF:cablecars:single,Muni cable car single fare,0.00,USD,,,,,youth,clipper
+SF:cablecars:single,Muni cable car single fare,0.00,USD,,,,,child,clipper
+SF:cablecars:single,Muni cable car single fare,9.00,USD,,,,,adult,munimobile
+SF:cablecars:single,Muni cable car single fare,0.00,USD,,,,,child,munimobile
+SF:cablecars:single,Muni cable car single fare,9.00,USD,,,,,adult,contactless
 SF:transfer:local-free,Muni free local transfer,0.00,USD,,,,,adult,cash
 SF:transfer:local-free,Muni free local transfer,0.00,USD,,,,,youth,cash
 SF:transfer:local-free,Muni free local transfer,0.00,USD,,,,,smd,cash
@@ -10970,8 +10886,6 @@ SF:transfer:local-free,Muni free local transfer,0.00,USD,,,,,adult,munimobile
 SF:transfer:local-free,Muni free local transfer,0.00,USD,,,,,youth,munimobile
 SF:transfer:local-free,Muni free local transfer,0.00,USD,,,,,smd,munimobile
 SF:transfer:local-free,Muni free local transfer,0.00,USD,,,,,adult,contactless
-SF:transfer:local-free,Muni free local transfer,0.00,USD,,,,,youth,contactless
-SF:transfer:local-free,Muni free local transfer,0.00,USD,,,,,smd,contactless
 SF:transfer:interagency-transfer-credit,Muni inter-agency transfer credit,-0.50,USD,,,,,adult,clipper
 SF:transfer:interagency-transfer-credit,Muni inter-agency transfer credit,-0.50,USD,,,,,adult,contactless
 SF:m:1-month,"Muni 1-month ""M"" pass",86.00,USD,,1.0,5,1,adult,clipper
@@ -10990,13 +10904,11 @@ SM:local:single,samTrans single local fare,1.10,USD,,,,,smdy,cash
 SM:local:single,samTrans single local fare,2.05,USD,,,,,adult,clipper
 SM:local:single,samTrans single local fare,1.00,USD,,,,,smdy,clipper
 SM:local:single,samTrans single local fare,2.05,USD,,,,,adult,contactless
-SM:local:single,samTrans single local fare,0.00,USD,,,,,smdy,contactless
 SM:express:single,samTrans single express fare,2.25,USD,,,,,adult,cash
 SM:express:single,samTrans single express fare,1.10,USD,,,,,smdy,cash
 SM:express:single,samTrans single express fare,2.05,USD,,,,,adult,clipper
 SM:express:single,samTrans single express fare,1.00,USD,,,,,smdy,clipper
 SM:express:single,samTrans single express fare,2.05,USD,,,,,adult,contactless
-SM:express:single,samTrans single express fare,0.00,USD,,,,,smdy,contactless
 SM:transfer:express-upgrade,samTrans local to express upgrade,2.25,USD,,,,,adult,cash
 SM:transfer:express-upgrade,samTrans local to express upgrade,1.15,USD,,,,,smdy,cash
 SM:transfer:express-upgrade,samTrans local to express upgrade,1.95,USD,,,,,adult,clipper
@@ -11210,9 +11122,6 @@ SR:local:single,Santa Rosa CityBus single local fare,0.00,USD,,,,,youth,clipper
 SR:local:single,Santa Rosa CityBus single local fare,0.75,USD,,,,,smd,clipper
 SR:local:single,Santa Rosa CityBus single local fare,0.00,USD,,,,,SR:veteran,clipper
 SR:local:single,Santa Rosa CityBus single local fare,1.50,USD,,,,,adult,contactless
-SR:local:single,Santa Rosa CityBus single local fare,0.00,USD,,,,,youth,contactless
-SR:local:single,Santa Rosa CityBus single local fare,0.00,USD,,,,,smd,contactless
-SR:local:single,Santa Rosa CityBus single local fare,0.00,USD,,,,,SR:veteran,contactless
 SR:local:24-hour,Santa Rosa CityBus 24-hour pass,4.00,USD,,1.0,3,1,adult,cash
 SR:local:24-hour,Santa Rosa CityBus 24-hour pass,0.00,USD,,1.0,3,1,youth,cash
 SR:local:24-hour,Santa Rosa CityBus 24-hour pass,2.00,USD,,1.0,3,1,smd,cash
@@ -11236,8 +11145,6 @@ ST:local:single,SolTrans single local fare,2.00,USD,,,,,adult,clipper
 ST:local:single,SolTrans single local fare,0.00,USD,,,,,youth,clipper
 ST:local:single,SolTrans single local fare,1.00,USD,,,,,smd,clipper
 ST:local:single,SolTrans single local fare,2.00,USD,,,,,adult,contactless
-ST:local:single,SolTrans single local fare,0.00,USD,,,,,youth,contactless
-ST:local:single,SolTrans single local fare,0.00,USD,,,,,smd,contactless
 ST:express-inside-county:single,SolTrans express inside-county single fare,2.75,USD,,,,,adult,cash
 ST:express-inside-county:single,SolTrans express inside-county single fare,0.00,USD,,,,,youth,cash
 ST:express-inside-county:single,SolTrans express inside-county single fare,1.35,USD,,,,,smd,cash
@@ -11245,8 +11152,6 @@ ST:express-inside-county:single,SolTrans express inside-county single fare,5.00,
 ST:express-inside-county:single,SolTrans express inside-county single fare,0.00,USD,,,,,youth,clipper
 ST:express-inside-county:single,SolTrans express inside-county single fare,2.50,USD,,,,,smd,clipper
 ST:express-inside-county:single,SolTrans express inside-county single fare,5.00,USD,,,,,adult,contactless
-ST:express-inside-county:single,SolTrans express inside-county single fare,0.00,USD,,,,,youth,contactless
-ST:express-inside-county:single,SolTrans express inside-county single fare,0.00,USD,,,,,smd,contactless
 ST:express-outside-county:single,SolTrans express outside-county single fare,5.00,USD,,,,,adult,cash
 ST:express-outside-county:single,SolTrans express outside-county single fare,0.00,USD,,,,,youth,cash
 ST:express-outside-county:single,SolTrans express outside-county single fare,2.50,USD,,,,,smd,cash
@@ -11254,8 +11159,6 @@ ST:express-outside-county:single,SolTrans express outside-county single fare,5.0
 ST:express-outside-county:single,SolTrans express outside-county single fare,0.00,USD,,,,,youth,clipper
 ST:express-outside-county:single,SolTrans express outside-county single fare,2.50,USD,,,,,smd,clipper
 ST:express-outside-county:single,SolTrans express outside-county single fare,5.00,USD,,,,,adult,contactless
-ST:express-outside-county:single,SolTrans express outside-county single fare,0.00,USD,,,,,youth,contactless
-ST:express-outside-county:single,SolTrans express outside-county single fare,0.00,USD,,,,,smd,contactless
 ST:sf:single,SolTrans San Francisco Express fare,6.00,USD,,,,,adult,cash
 ST:sf:single,SolTrans San Francisco Express fare,0.00,USD,,,,,youth,cash
 ST:sf:single,SolTrans San Francisco Express fare,3.00,USD,,,,,smd,cash
@@ -11263,8 +11166,6 @@ ST:sf:single,SolTrans San Francisco Express fare,6.00,USD,,,,,adult,clipper
 ST:sf:single,SolTrans San Francisco Express fare,0.00,USD,,,,,youth,clipper
 ST:sf:single,SolTrans San Francisco Express fare,3.00,USD,,,,,smd,clipper
 ST:sf:single,SolTrans San Francisco Express fare,6.00,USD,,,,,adult,contactless
-ST:sf:single,SolTrans San Francisco Express fare,0.00,USD,,,,,youth,contactless
-ST:sf:single,SolTrans San Francisco Express fare,0.00,USD,,,,,smd,contactless
 ST:express-inside-county:1-day,SolTrans Day Inside County Express Pass,5.50,USD,,1.0,3,1,adult,cash
 ST:express-inside-county:1-day,SolTrans Day Inside County Express Pass,0.00,USD,,1.0,3,1,youth,cash
 ST:express-inside-county:1-day,SolTrans Day Inside County Express Pass,2.75,USD,,1.0,3,1,smd,cash
@@ -11292,8 +11193,6 @@ ST:transfer:interagency-transfer-upgrade,SolTrans interagency discount,-2.00,USD
 ST:transfer:interagency-transfer-upgrade,SolTrans interagency discount,0.00,USD,,,,,youth,clipper
 ST:transfer:interagency-transfer-upgrade,SolTrans interagency discount,-1.00,USD,,,,,smd,clipper
 ST:transfer:interagency-transfer-upgrade,SolTrans interagency discount,-2.00,USD,,,,,adult,contactless
-ST:transfer:interagency-transfer-upgrade,SolTrans interagency discount,0.00,USD,,,,,youth,contactless
-ST:transfer:interagency-transfer-upgrade,SolTrans interagency discount,0.00,USD,,,,,smd,contactless
 TF:local:single,Treasure Island Ferry One-Way,5.00,USD,,,,,adult,cash
 TF:local:single,Treasure Island Ferry One-Way,0.00,USD,,,,,child,cash
 UC:local:single,Union City Transit single local fare,2.00,USD,,,,,adult,cash
@@ -11303,8 +11202,6 @@ UC:local:single,Union City Transit single local fare,2.00,USD,,,,,adult,clipper
 UC:local:single,Union City Transit single local fare,1.25,USD,,,,,youth,clipper
 UC:local:single,Union City Transit single local fare,1.00,USD,,,,,smd,clipper
 UC:local:single,Union City Transit single local fare,2.00,USD,,,,,adult,contactless
-UC:local:single,Union City Transit single local fare,0.00,USD,,,,,youth,contactless
-UC:local:single,Union City Transit single local fare,0.00,USD,,,,,smd,contactless
 UC:local:31-day,Union City Transit 31-day pass,55.00,USD,,31.0,3,1,adult,clipper
 UC:local:31-day,Union City Transit 31-day pass,35.00,USD,,31.0,3,1,youth,clipper
 UC:local:31-day,Union City Transit 31-day pass,26.00,USD,,31.0,3,1,smd,clipper
@@ -11312,20 +11209,14 @@ UC:transfer:free,Union City free transfer,0.00,USD,,,,,adult,clipper
 UC:transfer:free,Union City free transfer,0.00,USD,,,,,youth,clipper
 UC:transfer:free,Union City free transfer,0.00,USD,,,,,smd,clipper
 UC:transfer:free,Union City free transfer,0.00,USD,,,,,adult,contactless
-UC:transfer:free,Union City free transfer,0.00,USD,,,,,youth,contactless
-UC:transfer:free,Union City free transfer,0.00,USD,,,,,smd,contactless
 UC:transfer:ba-upgrade,Union City BART transfer,0.50,USD,,,,,adult,clipper
 UC:transfer:ba-upgrade,Union City BART transfer,0.50,USD,,,,,youth,clipper
 UC:transfer:ba-upgrade,Union City BART transfer,0.50,USD,,,,,smd,clipper
 UC:transfer:ba-upgrade,Union City BART transfer,0.50,USD,,,,,adult,contactless
-UC:transfer:ba-upgrade,Union City BART transfer,0.00,USD,,,,,youth,contactless
-UC:transfer:ba-upgrade,Union City BART transfer,0.00,USD,,,,,smd,contactless
 UC:transfer:ac-upgrade,Union City BART transfer,0.25,USD,,,,,adult,clipper
 UC:transfer:ac-upgrade,Union City BART transfer,0.25,USD,,,,,youth,clipper
 UC:transfer:ac-upgrade,Union City BART transfer,0.25,USD,,,,,smd,clipper
 UC:transfer:ac-upgrade,Union City BART transfer,0.25,USD,,,,,adult,contactless
-UC:transfer:ac-upgrade,Union City BART transfer,0.00,USD,,,,,youth,contactless
-UC:transfer:ac-upgrade,Union City BART transfer,0.00,USD,,,,,smd,contactless
 VC:local:single,Vacaville City Coach single fare,1.50,USD,,,,,adult,cash
 VC:local:single,Vacaville City Coach single fare,1.25,USD,,,,,youth,cash
 VC:local:single,Vacaville City Coach single fare,0.75,USD,,,,,smd,cash
@@ -11333,8 +11224,6 @@ VC:local:single,Vacaville City Coach single fare,1.50,USD,,,,,adult,clipper
 VC:local:single,Vacaville City Coach single fare,1.25,USD,,,,,youth,clipper
 VC:local:single,Vacaville City Coach single fare,0.75,USD,,,,,smd,clipper
 VC:local:single,Vacaville City Coach single fare,1.50,USD,,,,,adult,contactless
-VC:local:single,Vacaville City Coach single fare,0.00,USD,,,,,youth,contactless
-VC:local:single,Vacaville City Coach single fare,0.00,USD,,,,,smd,contactless
 VC:local:1-day,Vacaville City Coach 1-day pass,3.25,USD,,1.0,3,1,adult,cash
 VC:local:1-day,Vacaville City Coach 1-day pass,3.25,USD,,1.0,3,1,youth,cash
 VC:local:1-day,Vacaville City Coach 1-day pass,2.00,USD,,1.0,3,1,smd,cash
@@ -11351,8 +11240,6 @@ VC:transfer:free,Vacaville City Coach free transfer,0.00,USD,,,,,adult,clipper
 VC:transfer:free,Vacaville City Coach free transfer,0.00,USD,,,,,youth,clipper
 VC:transfer:free,Vacaville City Coach free transfer,0.00,USD,,,,,smd,clipper
 VC:transfer:free,Vacaville City Coach free transfer,0.00,USD,,,,,adult,contactless
-VC:transfer:free,Vacaville City Coach free transfer,0.00,USD,,,,,youth,contactless
-VC:transfer:free,Vacaville City Coach free transfer,0.00,USD,,,,,smd,contactless
 VN:local:single,Vine single local fare,2.00,USD,,,,,adult,cash
 VN:local:single,Vine single local fare,1.25,USD,,,,,youth,cash
 VN:local:single,Vine single local fare,1.00,USD,,,,,smd,cash
@@ -11360,8 +11247,6 @@ VN:local:single,Vine single local fare,2.00,USD,,,,,adult,clipper
 VN:local:single,Vine single local fare,1.25,USD,,,,,youth,clipper
 VN:local:single,Vine single local fare,1.00,USD,,,,,smd,clipper
 VN:local:single,Vine single local fare,2.00,USD,,,,,adult,contactless
-VN:local:single,Vine single local fare,0.00,USD,,,,,youth,contactless
-VN:local:single,Vine single local fare,0.00,USD,,,,,smd,contactless
 VN:express:single,Vine route 21 single fare,3.50,USD,,,,,adult,cash
 VN:express:single,Vine route 21 single fare,3.50,USD,,,,,youth,cash
 VN:express:single,Vine route 21 single fare,3.50,USD,,,,,smd,cash
@@ -11369,8 +11254,6 @@ VN:express:single,Vine route 21 single fare,3.50,USD,,,,,adult,clipper
 VN:express:single,Vine route 21 single fare,3.50,USD,,,,,youth,clipper
 VN:express:single,Vine route 21 single fare,3.50,USD,,,,,smd,clipper
 VN:express:single,Vine route 21 single fare,3.50,USD,,,,,adult,contactless
-VN:express:single,Vine route 21 single fare,0.00,USD,,,,,youth,contactless
-VN:express:single,Vine route 21 single fare,0.00,USD,,,,,smd,contactless
 VN:bart:single,Vine route 29 single fare,6.00,USD,,,,,adult,cash
 VN:bart:single,Vine route 29 single fare,6.00,USD,,,,,youth,cash
 VN:bart:single,Vine route 29 single fare,6.00,USD,,,,,smd,cash
@@ -11378,8 +11261,6 @@ VN:bart:single,Vine route 29 single fare,6.00,USD,,,,,adult,clipper
 VN:bart:single,Vine route 29 single fare,6.00,USD,,,,,youth,clipper
 VN:bart:single,Vine route 29 single fare,6.00,USD,,,,,smd,clipper
 VN:bart:single,Vine route 29 single fare,6.00,USD,,,,,adult,contactless
-VN:bart:single,Vine route 29 single fare,0.00,USD,,,,,youth,contactless
-VN:bart:single,Vine route 29 single fare,0.00,USD,,,,,smd,contactless
 VN:local:1-day,Vine 1-day local pass,7.00,USD,,1.0,3,1,adult,cash
 VN:local:1-day,Vine 1-day local pass,5.00,USD,,1.0,3,1,youth,cash
 VN:local:1-day,Vine 1-day local pass,3.50,USD,,1.0,3,1,smd,cash
@@ -11402,8 +11283,6 @@ VN:transfer:free,Vine free transfer,0.00,USD,,,,,adult,clipper
 VN:transfer:free,Vine free transfer,0.00,USD,,,,,youth,clipper
 VN:transfer:free,Vine free transfer,0.00,USD,,,,,smd,clipper
 VN:transfer:free,Vine free transfer,0.00,USD,,,,,adult,contactless
-VN:transfer:free,Vine free transfer,0.00,USD,,,,,youth,contactless
-VN:transfer:free,Vine free transfer,0.00,USD,,,,,smd,contactless
 WC:local:single,WestCAT single local fare,1.75,USD,,,,,adult,cash
 WC:local:single,WestCAT single local fare,1.75,USD,,,,,youth,cash
 WC:local:single,WestCAT single local fare,0.75,USD,,,,,smd,cash
@@ -11413,9 +11292,6 @@ WC:local:single,WestCAT single local fare,1.75,USD,,,,,youth,clipper
 WC:local:single,WestCAT single local fare,0.75,USD,,,,,smd,clipper
 WC:local:single,WestCAT single local fare,0.00,USD,,,,,child,clipper
 WC:local:single,WestCAT single local fare,1.75,USD,,,,,adult,contactless
-WC:local:single,WestCAT single local fare,0.00,USD,,,,,youth,contactless
-WC:local:single,WestCAT single local fare,0.00,USD,,,,,smd,contactless
-WC:local:single,WestCAT single local fare,0.00,USD,,,,,child,contactless
 WC:transbay:single,WestCAT Lynx transbay fare,5.00,USD,,,,,adult,cash
 WC:transbay:single,WestCAT Lynx transbay fare,5.00,USD,,,,,youth,cash
 WC:transbay:single,WestCAT Lynx transbay fare,2.00,USD,,,,,smd,cash
@@ -11425,9 +11301,6 @@ WC:transbay:single,WestCAT Lynx transbay fare,5.00,USD,,,,,youth,clipper
 WC:transbay:single,WestCAT Lynx transbay fare,2.00,USD,,,,,smd,clipper
 WC:transbay:single,WestCAT Lynx transbay fare,0.00,USD,,,,,child,clipper
 WC:transbay:single,WestCAT Lynx transbay fare,5.00,USD,,,,,adult,contactless
-WC:transbay:single,WestCAT Lynx transbay fare,0.00,USD,,,,,youth,contactless
-WC:transbay:single,WestCAT Lynx transbay fare,0.00,USD,,,,,smd,contactless
-WC:transbay:single,WestCAT Lynx transbay fare,0.00,USD,,,,,child,contactless
 WC:local:1-day,WestCAT 1-day local pass,3.50,USD,,1.0,3,1,adult,cash
 WC:local:1-day,WestCAT 1-day local pass,3.50,USD,,1.0,3,1,youth,cash
 WC:local:1-day,WestCAT 1-day local pass,1.50,USD,,1.0,3,1,smd,cash
@@ -11442,50 +11315,33 @@ WC:transfer:free,WestCAT free transfer,0.00,USD,,,,,youth,clipper
 WC:transfer:free,WestCAT free transfer,0.00,USD,,,,,smd,clipper
 WC:transfer:free,WestCAT free transfer,0.00,USD,,,,,child,clipper
 WC:transfer:free,WestCAT free transfer,0.00,USD,,,,,adult,contactless
-WC:transfer:free,WestCAT free transfer,0.00,USD,,,,,youth,contactless
-WC:transfer:free,WestCAT free transfer,0.00,USD,,,,,smd,contactless
-WC:transfer:free,WestCAT free transfer,0.00,USD,,,,,child,contactless
 WC:transfer:interagency-transfer-upgrade,WestCAT discounted transfer,1.00,USD,,,,,adult,clipper
 WC:transfer:interagency-transfer-upgrade,WestCAT discounted transfer,1.00,USD,,,,,youth,clipper
 WC:transfer:interagency-transfer-upgrade,WestCAT discounted transfer,0.50,USD,,,,,smd,clipper
 WC:transfer:interagency-transfer-upgrade,WestCAT discounted transfer,0.00,USD,,,,,child,clipper
 WC:transfer:interagency-transfer-upgrade,WestCAT discounted transfer,1.00,USD,,,,,adult,contactless
-WC:transfer:interagency-transfer-upgrade,WestCAT discounted transfer,0.00,USD,,,,,youth,contactless
-WC:transfer:interagency-transfer-upgrade,WestCAT discounted transfer,0.00,USD,,,,,smd,contactless
-WC:transfer:interagency-transfer-upgrade,WestCAT discounted transfer,0.00,USD,,,,,child,contactless
 WC:transfer:transbay-upgrade,WestCAT express upgrade,3.25,USD,,,,,adult,clipper
 WC:transfer:transbay-upgrade,WestCAT express upgrade,1.25,USD,,,,,youth,clipper
 WC:transfer:transbay-upgrade,WestCAT express upgrade,1.25,USD,,,,,smd,clipper
 WC:transfer:transbay-upgrade,WestCAT express upgrade,0.00,USD,,,,,child,clipper
 WC:transfer:transbay-upgrade,WestCAT express upgrade,3.25,USD,,,,,adult,contactless
-WC:transfer:transbay-upgrade,WestCAT express upgrade,0.00,USD,,,,,youth,contactless
-WC:transfer:transbay-upgrade,WestCAT express upgrade,0.00,USD,,,,,smd,contactless
-WC:transfer:transbay-upgrade,WestCAT express upgrade,0.00,USD,,,,,child,contactless
-WH:local:single,Wheels single local fare,2.00,USD,,,,,adult,cash
-WH:local:single,Wheels single local fare,2.00,USD,,,,,youth,cash
-WH:local:single,Wheels single local fare,1.00,USD,,,,,smd,cash
-WH:local:single,Wheels single local fare,2.00,USD,,,,,adult,clipper
-WH:local:single,Wheels single local fare,1.60,USD,,,,,youth,clipper
-WH:local:single,Wheels single local fare,1.00,USD,,,,,smd,clipper
-WH:local:single,Wheels single local fare,2.00,USD,,,,,adult,contactless
-WH:local:single,Wheels single local fare,0.00,USD,,,,,youth,contactless
-WH:local:single,Wheels single local fare,0.00,USD,,,,,smd,contactless
+WH:local:single,Wheels single local fare,2.50,USD,,,,,adult,cash
+WH:local:single,Wheels single local fare,2.25,USD,,,,,youth,cash
+WH:local:single,Wheels single local fare,1.25,USD,,,,,smd,cash
+WH:local:single,Wheels single local fare,2.50,USD,,,,,adult,clipper
+WH:local:single,Wheels single local fare,2.25,USD,,,,,youth,clipper
+WH:local:single,Wheels single local fare,1.25,USD,,,,,smd,clipper
+WH:local:single,Wheels single local fare,2.50,USD,,,,,adult,contactless
 WH:local:1-day,Wheels 1-day local pass,3.75,USD,,1.0,3,1,adult,cash
 WH:local:1-day,Wheels 1-day local pass,3.75,USD,,1.0,3,1,youth,cash
 WH:local:1-day,Wheels 1-day local pass,1.75,USD,,1.0,3,1,smd,cash
-WH:local:1-month,Wheels 1-month local pass,60.00,USD,,1.0,5,1,adult,cash
-WH:local:1-month,Wheels 1-month local pass,60.00,USD,,1.0,5,1,youth,cash
-WH:local:1-month,Wheels 1-month local pass,22.00,USD,,1.0,5,1,smd,cash
-WH:local:31-day,Wheels 31-day local pass,60.00,USD,,31.0,3,1,adult,clipper
-WH:local:31-day,Wheels 31-day local pass,60.00,USD,,31.0,3,1,youth,clipper
-WH:local:31-day,Wheels 31-day local pass,22.00,USD,,31.0,3,1,smd,clipper
+WH:local:31-day,Wheels 31-day local pass,70.00,USD,,31.0,3,1,adult,clipper
+WH:local:31-day,Wheels 31-day local pass,70.00,USD,,31.0,3,1,youth,clipper
+WH:local:31-day,Wheels 31-day local pass,25.00,USD,,31.0,3,1,smd,clipper
 WH:transfer:free,Wheels free transfer,0.00,USD,,,,,adult,clipper
 WH:transfer:free,Wheels free transfer,0.00,USD,,,,,youth,clipper
 WH:transfer:free,Wheels free transfer,0.00,USD,,,,,smd,clipper
 WH:transfer:free,Wheels free transfer,0.00,USD,,,,,adult,contactless
-WH:transfer:free,Wheels free transfer,0.00,USD,,,,,youth,contactless
-WH:transfer:free,Wheels free transfer,0.00,USD,,,,,smd,contactless
 WH:transfer:ba-upgrade,Wheels BART transfer credit,1.00,USD,,,,,adult,clipper
 WH:transfer:ba-upgrade,Wheels BART transfer credit,1.00,USD,,,,,youth,clipper
 WH:transfer:ba-upgrade,Wheels BART transfer credit,1.00,USD,,,,,adult,contactless
-WH:transfer:ba-upgrade,Wheels BART transfer credit,0.00,USD,,,,,youth,contactless
