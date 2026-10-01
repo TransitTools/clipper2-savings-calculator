@@ -40,6 +40,9 @@ h1,h2,h3,h4,h5,h6,button {
 
 .agency-input {
   @apply flex-grow w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[var(--transbay-teal)];
+  color-scheme: only light;
+  color: #0f172a;
+  background-color: #fff;
 }
 
 .dismiss-button {
