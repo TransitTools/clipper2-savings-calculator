@@ -14,6 +14,10 @@ Then start a webserver in the `public/` directory:
 
 `$ $ python -m http.server -d public/`
 
+### Embeddable version
+
+`/embed.html` contains only the trip calculator in an embeddable format. It is also available as a separate embed-only deployment.
+
 ### Data sources
 
 Data for the existing fares and transfer schemes are taken from the Metropolitan Transportation Commission's [regional GTFS feed](https://511.org/open-data/transit), in particular, the `fare_*` files. In addition, the section of `stops.txt` defining BART stops has been imported as well.

@@ -759,7 +759,7 @@ share?.addEventListener("click", async () => {
   const shareData = {
     title: "Clipper 2.0 Savings Calculator",
     text: `I could save ${comparisonAnnualDiv.innerText} every year with Clipper 2.0! How much will you save?\n`,
-    url: `${window.location.origin}/${urlHash}`,
+    url: `${window.location.origin}${window.location.pathname}${window.location.search}${encodeURI(urlHash)}`,
   };
   if (navigator.share) {
     try {
@@ -768,7 +768,7 @@ share?.addEventListener("click", async () => {
       console.warn(err);
     }
   } else {
-    navigator.clipboard.writeText(encodeURI(shareData.url));
+    await navigator.clipboard.writeText(shareData.url);
     shareEl.innerText = "Copied link to clipboard!";
   }
 });

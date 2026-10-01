@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clipper 2.0 Savings Calculator</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="embed.js"></script>
+  <style>
+    .embed-primary {
+      background-color: var(--embed-accent, var(--transbay-red));
+      color: var(--embed-foreground, white);
+    }
+    .embed-primary:hover {
+      background-color: var(--transbay-teal);
+      color: white;
+    }
+    .embed-highlight {
+      color: var(--embed-highlight, var(--bay-gold));
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body class="bg-white text-slate-900">
+  <main aria-label="Clipper 2.0 Savings Calculator">
+  <section id="app" class="max-w-7xl mx-auto px-4 py-4 flex flex-col xl:flex-row gap-8">
+    <div class="flex-1 min-w-0 bg-white p-6 rounded-2xl shadow-md flex flex-col">
+      <h2 class="text-2xl font-semibold mb-4 text-[var(--transbay-red)]">Your Trip</h2>
+      <span>Enter each of the transit agencies you use on your trip in the order you take them.</span>
+      <div id="agencyListContainer"></div>
+      <datalist id="agencyDatalist"></datalist>
+      <div class="flex flex-col sm:flex-row justify-center w-full mt-auto">
+        <button class="embed-primary inline-block font-semibold px-6 py-3 rounded-lg shadow transition mt-6 sm:mt-6 sm:mr-3 self-center sm:self-end w-full sm:w-auto">
+          Calculate
+        </button>
+
+        <select id="rider-category" aria-label="Rider Category"
+          class="inline-block text-center bg-white text-[var(--transbay-red)] font-semibold px-6 py-3 rounded-lg shadow border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[var(--transbay-teal)] transition mt-3 sm:mt-6 sm:mr-3 self-center sm:self-end w-full sm:w-auto">
+          <option value="adult">Adult</option>
+          <option value="youth">Youth</option>
+          <option value="smd">Senior/RTC</option>
+        </select>
+
+        <button id="clear"
+          class="inline-block bg-white text-[var(--transbay-red)] font-semibold px-6 py-3 rounded-lg shadow hover:bg-[var(--transbay-teal)] hover:text-white transition mt-3 sm:mt-6 self-center sm:self-end w-full sm:w-auto">
+          Reset
+        </button>
+      </div>
+    </div>
+
+    <div class="flex-1 min-w-0 bg-white p-6 rounded-2xl shadow-md flex flex-col mobile-start-hidden">
+      <h2 class="text-2xl font-semibold mb-4 text-[var(--transbay-red)]">Your Savings</h2>
+      <div class="output">
+        <div class="text-center">
+          <h3 class="text-2xl font-semibold mb-2 text-slate-600">Total Savings</h3>
+          <div class="text-xl break-words">
+            With Clipper 2.0, you'll save <span id="comparison-inner" class="embed-highlight font-bold text-2xl">$—</span> per trip.<br/>
+            That's <span id="comparison-inner-annual" class="embed-highlight font-bold text-2xl">$—</span> over a year's commute (500 trips)!
+          </div>
+        </div>
+        <div class="max-w-5xl mx-auto px-4 faq flex flex-col sm:flex-row justify-center items-center pt-0 output">
+          <button id="share"
+          class="embed-primary inline-block font-semibold text-2xl px-6 py-3 rounded-lg shadow transition self-end mt-6">
+            Share your trip savings!
+          </button>
+          <div id="share-text" class="text-lg font-semibold text-slate-600 text-center"></div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-lg text-left min-w-0 mt-6 mb-auto">
+          <div class="min-w-0">
+            <h3 class="text-lg font-semibold mb-2 text-slate-600 text-nowrap">Before Clipper 2.0</h3>
+            <div id="results"></div>
+            <div id="final-results"></div>
+          </div>
+          <div class="min-w-0">
+            <h3 class="text-lg font-semibold mb-2 text-slate-600 text-nowrap">After Clipper 2.0</h3>
+            <div id="results-c2"></div>
+            <div id="final-results-c2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
