@@ -14,9 +14,31 @@ Then start a webserver in the `public/` directory:
 
 `$ $ python -m http.server -d public/`
 
-### Embeddable version
+### iframe embed
 
 `/embed.html` contains only the trip calculator in an embeddable format. It is also available as a separate embed-only deployment.
+
+### JavaScript embed
+
+`/embed-js.html` demonstrates a calculator mounted into a single div. Add this
+container and module script to an agency page:
+
+```html
+<div data-clipper-calculator data-color="3fa92a"></div>
+<script type="module"
+  src="https://clipper2calculator.transittools.dev/embed-loader.js"></script>
+```
+
+The loader creates the markup, loads the script and styles, and
+runs the calculator inside a shadow root. Its height grows with the trip and its
+CSS stays inside the shadow root. Multiple containers have independent state.
+The optional `data-color` accepts three- or six-digit hex colors. Set
+`data-trip="#adult#MA#SA;A;D#SO;zone:1;zone:1"` to preload a trip.
+Shared links open the hosted calculator and preserve the trip and color; the
+embed does not change the agency page's URL.
+
+
+Pages with a Content Security Policy must allow scripts and connections to `clipper2calculator.transittools.dev` and Google Fonts.
 
 ### Data sources
 

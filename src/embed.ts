@@ -1,6 +1,5 @@
 // Apply the agency theme before the embed renders.
-(() => {
-  const value = new URLSearchParams(window.location.search).get("color");
+export function applyEmbedTheme(root: HTMLElement, value: string | null) {
   if (!value || !/^#?(?:[\da-f]{3}|[\da-f]{6})$/i.test(value)) return;
 
   let hex = value.replace(/^#/, "");
@@ -19,7 +18,6 @@
   while (luminance(textRgb) > (1.05 / 4.5 - 0.05)) {
     textRgb = textRgb.map(channel => Math.floor(channel * 0.9));
   }
-  const root = document.documentElement;
   root.style.setProperty("--transbay-red", color(textRgb));
   root.style.setProperty("--bay-gold", color(textRgb));
   root.style.setProperty("--transbay-teal", color(textRgb.map(channel => Math.floor(channel * 0.75))));
@@ -27,4 +25,4 @@
   root.style.setProperty("--embed-highlight", color(textRgb));
   root.style.setProperty("--embed-foreground", foreground);
   root.dataset.embedTheme = "custom";
-})();
+}

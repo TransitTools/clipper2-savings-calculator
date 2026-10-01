@@ -1,3 +1,4 @@
+export function mountCalculator(root: Document | ShadowRoot, assetBase = new URL(".", import.meta.url), tripUrl = new URL(window.location.href), consumeHash = true) {
 // interfaces defining structures for data pulled in from GTFS CSVs & XML API responses
 interface FareTransferRule {
   from_leg_group_id: string | null;
@@ -156,20 +157,20 @@ interface AgencyInput {
 
 const agencyInputs: AgencyInput[] = [];
 
-const agencyList = document.getElementById("agencyDatalist") as HTMLDataListElement;
-const agencyListContainer = document.getElementById("agencyListContainer")!;
+const agencyList = root.getElementById("agencyDatalist") as HTMLDataListElement;
+const agencyListContainer = root.getElementById("agencyListContainer")!;
 
-const resultsDiv = document.getElementById("results")!;
-const finalResultsDiv = document.getElementById("final-results")!;
+const resultsDiv = root.getElementById("results")!;
+const finalResultsDiv = root.getElementById("final-results")!;
 
-const resultsC2Div = document.getElementById("results-c2")!;
-const finalResultsC2Div = document.getElementById("final-results-c2")!;
+const resultsC2Div = root.getElementById("results-c2")!;
+const finalResultsC2Div = root.getElementById("final-results-c2")!;
 
-const comparisonDiv = document.getElementById("comparison-inner")!;
-const comparisonAnnualDiv = document.getElementById("comparison-inner-annual")!;
+const comparisonDiv = root.getElementById("comparison-inner")!;
+const comparisonAnnualDiv = root.getElementById("comparison-inner-annual")!;
 
-const shareEl = document.getElementById("share-text")!;
-const riderCategorySelect = document.getElementById("rider-category")! as HTMLSelectElement;
+const shareEl = root.getElementById("share-text")!;
+const riderCategorySelect = root.getElementById("rider-category")! as HTMLSelectElement;
 
 // basic CSV parsing - works with the input it's given, at least :)
 function parseCSV<T>(content: string): T[] {
@@ -259,11 +260,16 @@ function normalizeFareProducts(fareProducts: FareProduct[]) {
 
 // load static files into globals
 async function loadStaticFiles() {
+  async function loadText(path: string) {
+    const response = await fetch(new URL(path, assetBase));
+    if (!response.ok) throw new Error(`Fare data request failed: ${response.status}`);
+    return response.text();
+  }
   const [rulesText, productsText, stopsText, xmlText] = await Promise.all([
-    fetch("static/fare_transfer_rules.txt").then(r => r.text()),
-    fetch("static/fare_products.txt").then(r => r.text()),
-    fetch("static/stops.txt").then(r => r.text()),
-    fetch("static/gtfsoperators.xml").then(r => r.text())
+    loadText("static/fare_transfer_rules.txt"),
+    loadText("static/fare_products.txt"),
+    loadText("static/stops.txt"),
+    loadText("static/gtfsoperators.xml")
   ]);
 
   fareRules = parseCSV<FareTransferRule>(rulesText);
@@ -301,8 +307,8 @@ function loadFromHash(h: string) {
 // process share hashes, if any, then add a new input field
 function initializeInput() {
   agencyListContainer.style.display = "block";
-  if (window.location.hash) {
-    loadFromHash(decodeURIComponent(window.location.hash));
+  if (tripUrl.hash) {
+    loadFromHash(decodeURIComponent(tripUrl.hash));
     removeHash();
   }
   addAgencyInput();
@@ -569,7 +575,7 @@ function getNewIntraAgencyDiscount(
 // called when input is updated. calculates running fare totals for both C1 and C2 and creates output displays
 function updateTransferResults() {
   // hide or unhide output as necessary
-  const outputElements = document.querySelectorAll('.output') as NodeListOf<HTMLElement>;
+  const outputElements = root.querySelectorAll('.output') as NodeListOf<HTMLElement>;
   if (agencyInputs.length <= 1) {
     outputElements.forEach(element => {
       element.style.display = 'none';
@@ -580,7 +586,7 @@ function updateTransferResults() {
       element.style.display = 'grid';
     });
     // we only need to set it to flex here, we don't care about ever re-hiding it
-    const mobileStartHiddenElements = document.querySelectorAll('.mobile-start-hidden') as NodeListOf<HTMLElement>;
+    const mobileStartHiddenElements = root.querySelectorAll('.mobile-start-hidden') as NodeListOf<HTMLElement>;
     for (const e of mobileStartHiddenElements) {
       e.style.display = 'flex';
     }
@@ -701,7 +707,7 @@ function updateTransferResults() {
 }
 
 function removeHash() {
-  history.pushState("", document.title, window.location.pathname + window.location.search);
+  if (consumeHash) history.replaceState(null, document.title, window.location.pathname + window.location.search);
 }
 
 function clearInputs() {
@@ -715,7 +721,7 @@ function clearInputs() {
 */
 riderCategorySelect.addEventListener("change", () => updateTransferResults());
 
-const loadHashButtons = document.querySelectorAll('.stored-trip') as NodeListOf<HTMLElement>;
+const loadHashButtons = root.querySelectorAll('.stored-trip') as NodeListOf<HTMLElement>;
 for (const b of loadHashButtons) {
   b.addEventListener("click", () => {
     clearInputs();
@@ -725,7 +731,7 @@ for (const b of loadHashButtons) {
   });
 }
 
-const clear = document.getElementById("clear");
+const clear = root.getElementById("clear");
 clear?.addEventListener("click", () => {
   clearInputs();
   addAgencyInput();
@@ -753,13 +759,13 @@ function calculateUrlHash() {
   return urlHash;
 }
 
-const share = document.getElementById("share");
+const share = root.getElementById("share");
 share?.addEventListener("click", async () => {
   const urlHash = calculateUrlHash();
   const shareData = {
     title: "Clipper 2.0 Savings Calculator",
     text: `I could save ${comparisonAnnualDiv.innerText} every year with Clipper 2.0! How much will you save?\n`,
-    url: `${window.location.origin}${window.location.pathname}${window.location.search}${encodeURI(urlHash)}`,
+    url: `${tripUrl.origin}${tripUrl.pathname}${tripUrl.search}${encodeURI(urlHash)}`,
   };
   if (navigator.share) {
     try {
@@ -773,7 +779,10 @@ share?.addEventListener("click", async () => {
   }
 });
 
-loadStaticFiles().then(initializeInput).catch(err => {
+return loadStaticFiles().then(initializeInput).catch(err => {
+  if (root instanceof ShadowRoot) throw err;
   console.error("Error loading static files:", err);
   resultsDiv.textContent = "Failed to load static GTFS files.";
 });
+
+}
