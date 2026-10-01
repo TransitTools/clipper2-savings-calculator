@@ -43,9 +43,11 @@ async function mount(host: HTMLElement) {
     if (fonts) shadow.prepend(document.importNode(fonts, true));
     const color = host.dataset.color ?? new URLSearchParams(window.location.search).get("color");
     applyEmbedTheme(wrapper, color);
-    const tripUrl = new URL("embed.html", assetBase);
+    const tripUrl = new URL(window.location.href);
     if (color) tripUrl.searchParams.set("color", color);
-    tripUrl.hash = host.dataset.trip ?? (/^#(?:adult|youth|smd)(?:#|$)/.test(window.location.hash) ? window.location.hash : "");
+    // Shared URL trips take precedence over an agency's default trip.
+    tripUrl.hash = /^#(?:adult|youth|smd)(?:#|$)/.test(window.location.hash)
+      ? window.location.hash : host.dataset.trip ?? "";
     await mountCalculator(shadow, assetBase, tripUrl, false);
   } catch (error) {
     console.error("Could not load Clipper calculator:", error);

@@ -34,8 +34,11 @@ runs the calculator inside a shadow root. Its height grows with the trip and its
 CSS stays inside the shadow root. Multiple containers have independent state.
 The optional `data-color` accepts three- or six-digit hex colors. Set
 `data-trip="#adult#MA#SA;A;D#SO;zone:1;zone:1"` to preload a trip.
-Shared links open the hosted calculator and preserve the trip and color; the
-embed does not change the agency page's URL.
+Shared links open the same embed page and preserve its query parameters,
+trip, and calculator color. On page load, a trip URL hash such as
+`#adult#MA#SA;A;D#SO;zone:1;zone:1` takes precedence over `data-trip`.
+Other page anchors are ignored by the calculator. The embed does not change
+the agency page's URL when loading or resetting a trip.
 
 
 Pages with a Content Security Policy must allow scripts and connections to `clipper2calculator.transittools.dev` and Google Fonts.
