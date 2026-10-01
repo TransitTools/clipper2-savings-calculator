@@ -26,7 +26,7 @@ container and module script to an agency page:
 ```html
 <div data-clipper-calculator data-color="3fa92a"></div>
 <script type="module"
-  src="https://clipper2calculator.transittools.dev/embed-loader.js"></script>
+  src="https://clippercalculator.transittools.dev/embed-loader.js"></script>
 ```
 
 The loader creates the markup, loads the script and styles, and
@@ -41,7 +41,7 @@ Other page anchors are ignored by the calculator. The embed does not change
 the agency page's URL when loading or resetting a trip.
 
 
-Pages with a Content Security Policy must allow scripts and connections to `clipper2calculator.transittools.dev` and Google Fonts.
+Pages with a Content Security Policy must allow scripts and connections to `clippercalculator.transittools.dev` and Google Fonts.
 
 ### Data sources
 
