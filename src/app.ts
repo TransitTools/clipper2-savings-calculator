@@ -763,8 +763,8 @@ const share = root.getElementById("share");
 share?.addEventListener("click", async () => {
   const urlHash = calculateUrlHash();
   const shareData = {
-    title: "Clipper 2.0 Savings Calculator",
-    text: `I could save ${comparisonAnnualDiv.innerText} every year with Clipper 2.0! How much will you save?\n`,
+    title: "Next Generation Clipper Savings Calculator",
+    text: `I could save ${comparisonAnnualDiv.innerText} every year with Next Generation Clipper! How much will you save?\n`,
     url: `${tripUrl.origin}${tripUrl.pathname}${tripUrl.search}${encodeURI(urlHash)}`,
   };
   if (navigator.share) {
