@@ -688,7 +688,7 @@ function updateTransferResults() {
   finalResultsC2Div.innerHTML = "";
   const spanc2 = document.createElement("span");
   spanc2.className = "font-bold mt-12";
-  spanc2.textContent = `Total fare with Clipper 2.0: $${c2fare.toFixed(2)}`;
+  spanc2.textContent = `Total fare with Next Generation Clipper: $${c2fare.toFixed(2)}`;
   finalResultsC2Div.appendChild(spanc2);
 
   const savings = c1fare - c2fare!;
