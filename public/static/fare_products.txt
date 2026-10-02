@@ -10669,7 +10669,7 @@ GG:matrix:GG:Petaluma-Cotati-Rohnert Park-GG:East Bay,generated,7.50,USD,,,,,smd
 GG:matrix:GG:Santa Rosa-GG:Santa Rosa,generated,1.50,USD,,,,,smdy,clipper
 GG:matrix:GG:Santa Rosa-GG:East Bay,generated,7.50,USD,,,,,smdy,clipper
 GG:matrix:GG:East Bay-GG:East Bay,generated,1.50,USD,,,,,smdy,clipper
-GG:transfer:ma-credit,Golden Gate Transit transfer credit: Marin Transit,-2.00,USD,,,,,adult,clipper
+GG:transfer:ma-credit,Golden Gate Transit transfer credit: Marin Transit,-1.80,USD,,,,,adult,clipper
 GG:transfer:ma-credit,Golden Gate Transit transfer credit: Marin Transit,-1.00,USD,,,,,smdy,clipper
 GG:transfer:pe-credit,Golden Gate Transit transfer credit: Petaluma,-1.50,USD,,,,,adult,clipper
 GG:transfer:pe-credit,Golden Gate Transit transfer credit: Petaluma,-0.75,USD,,,,,smdy,clipper
@@ -10802,6 +10802,9 @@ SB:transfer:sf-credit,San Francisco Bay Ferry: Transfer credit from Muni,-0.50,U
 SB:transfer:st-credit,San Francisco Bay Ferry: Transfer credit from SolTrans,-2.00,USD,,,,,adult,cash
 SB:transfer:st-credit,San Francisco Bay Ferry: Transfer credit from SolTrans,-1.75,USD,,,,,youth,cash
 SB:transfer:st-credit,San Francisco Bay Ferry: Transfer credit from SolTrans,-1.00,USD,,,,,smd,cash
+SB:transfer:st-credit,San Francisco Bay Ferry: Transfer credit from SolTrans,-2.00,USD,,,,,adult,clipper
+SB:transfer:st-credit,San Francisco Bay Ferry: Transfer credit from SolTrans,-1.00,USD,,,,,youth,clipper
+SB:transfer:st-credit,San Francisco Bay Ferry: Transfer credit from SolTrans,0,USD,,,,,smd,clipper
 SC:local:single,VTA single local fare,2.50,USD,,,,,adult,cash
 SC:local:single,VTA single local fare,1.25,USD,,,,,youth,cash
 SC:local:single,VTA single local fare,1.00,USD,,,,,smd,cash
