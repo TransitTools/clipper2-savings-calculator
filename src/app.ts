@@ -534,11 +534,16 @@ function getTransferDiscount(fromId, toId, fare, category: string): number {
 
   if (fromId.startsWith("SB")) { fromId = "SB" };
   if (toId.startsWith("SB")) { toId = "SB" };
-  // take the first match as the correct match
-  const transferRule = fareRules.find(r => r.from_leg_group_id === fromId && r.to_leg_group_id === toId);
-  let discountValue = transferRule ? fareProducts.find(p => p.fare_product_id === transferRule.fare_product_id && p.rider_category_id === category)?.amount : undefined;
+  // This calculator models single fares, so pass-restricted transfers do not apply.
+  const transferRule = fareRules.find(r =>
+    r.from_leg_group_id === fromId && r.to_leg_group_id === toId && !r.filter_fare_product_id
+  );
+  const clipperTransferProducts = transferRule ? fareProducts.filter(p =>
+    p.fare_product_id === transferRule.fare_product_id && p.fare_media_id === "clipper"
+  ) : [];
+  let discountValue = clipperTransferProducts.find(p => p.rider_category_id === category)?.amount;
   if (transferRule !== undefined && discountValue === undefined) {
-    discountValue = fareProducts.find(p => p.fare_product_id === transferRule.fare_product_id)?.amount;
+    discountValue = clipperTransferProducts[0]?.amount;
   }
 
   if (discountValue === undefined) {
