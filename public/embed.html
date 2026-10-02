@@ -5,19 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Next Generation Clipper Savings Calculator</title>
   <link rel="stylesheet" href="styles.css" />
-  <style>
-    .embed-primary {
-      background-color: var(--embed-accent, var(--transbay-red));
-      color: var(--embed-foreground, white);
-    }
-    .embed-primary:hover {
-      background-color: var(--transbay-teal);
-      color: white;
-    }
-    .embed-highlight {
-      color: var(--embed-highlight, var(--bay-gold));
-    }
-  </style>
+  <link rel="stylesheet" href="embed.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body class="bg-white text-slate-900">
@@ -28,7 +16,7 @@
       <span>Enter each of the transit agencies you use on your trip in the order you take them.</span>
       <div id="agencyListContainer"></div>
       <datalist id="agencyDatalist"></datalist>
-      <div class="flex flex-col sm:flex-row justify-center w-full mt-auto">
+      <div class="trip-actions flex flex-col sm:flex-row justify-center w-full mt-auto">
         <button class="embed-primary inline-block font-semibold px-6 py-3 rounded-lg shadow transition mt-6 sm:mt-6 sm:mr-3 self-center sm:self-end w-full sm:w-auto">
           Calculate
         </button>
@@ -52,9 +40,9 @@
       <div class="output">
         <div class="text-center">
           <h3 class="text-2xl font-semibold mb-2 text-slate-600">Total Savings</h3>
-          <div class="text-xl break-words">
-            With Next Generation Clipper, you'll save <span id="comparison-inner" class="embed-highlight font-bold text-2xl">$—</span> per trip.<br/>
-            That's <span id="comparison-inner-annual" class="embed-highlight font-bold text-2xl">$—</span> over a year's commute (500 trips)!
+          <div class="savings-summary text-xl break-words">
+            <p>With Next Generation Clipper, you'll save <span id="comparison-inner" class="embed-highlight font-bold text-2xl">$—</span> per trip.</p>
+            <p>That's <span id="comparison-inner-annual" class="embed-highlight font-bold text-2xl">$—</span> over a year's commute (500 trips)!</p>
           </div>
         </div>
         <div class="max-w-5xl mx-auto px-4 faq flex flex-col sm:flex-row justify-center items-center pt-0 output">

@@ -1,0 +1,70 @@
+/* Shared by the iframe and JavaScript embeds. */
+main { container-type: inline-size; }
+#app {
+  flex-direction: column;
+  padding: 8px 0;
+  gap: 20px;
+  font-size: 14px;
+  line-height: 1.45;
+  font-family: var(--font-body);
+}
+@container (min-width: 768px) {
+  #app { flex-direction: row; }
+  #app > .mobile-start-hidden { display: flex; }
+}
+#app .trip-actions { flex-wrap: wrap; }
+#app > div {
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgb(15 23 42 / 0.06);
+}
+#app h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  letter-spacing: 0;
+}
+#app h3 { font-size: 15px; letter-spacing: 0; }
+#app .agency-input, #app .fromto-select {
+  min-width: 0;
+  padding: 8px 10px;
+  border-color: #94a3b8;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+#app #agencyListContainer > div > .flex { margin-top: 10px; }
+#app .fromto-div { padding-top: 6px; gap: 4px; }
+#app .fromto-label { margin-bottom: 0; font-size: 13px; }
+#app button, #app #rider-category {
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 4px;
+  box-shadow: none;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+#app .dismiss-button {
+  padding: 4px;
+  margin-top: 0;
+  font-size: 20px;
+  line-height: 1;
+}
+#app .output .text-xl, #app #share-text { font-size: 14px; }
+#app .savings-summary p { text-wrap: balance; }
+#app .embed-highlight { font-size: 18px; }
+#app .output .grid { font-size: 14px; gap: 16px; margin-top: 16px; }
+#app #results > div, #app #results-c2 > div { margin-bottom: 10px; }
+.embed-primary {
+  background-color: var(--embed-accent, var(--transbay-red));
+  color: var(--embed-foreground, white);
+}
+.embed-primary:hover {
+  background-color: var(--transbay-teal);
+  color: white;
+}
+.embed-highlight {
+  color: var(--embed-highlight, var(--bay-gold));
+}

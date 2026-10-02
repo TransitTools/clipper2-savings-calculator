@@ -10,7 +10,7 @@ async function loadText(path: string) {
 }
 
 // Reuse the iframe's markup and stylesheet so both embeds stay in sync.
-const resources = Promise.all([loadText("embed.html"), loadText("styles.css")]);
+const resources = Promise.all([loadText("embed.html"), loadText("styles.css"), loadText("embed.css")]);
 
 async function mount(host: HTMLElement) {
   if (host.shadowRoot) return;
@@ -18,7 +18,7 @@ async function mount(host: HTMLElement) {
   host.setAttribute("aria-busy", "true");
   shadow.textContent = "Loading calculator…";
   try {
-    const [html, css] = await resources;
+    const [html, css, embedCss] = await resources;
     const template = new DOMParser().parseFromString(html, "text/html");
     const main = template.querySelector("main");
     if (!main) throw new Error("Calculator markup is missing");
@@ -34,7 +34,7 @@ async function mount(host: HTMLElement) {
       :host { all: initial; display: block; min-width: 0; }
       .calculator { font: 16px var(--font-body); line-height: 1.5;
         color: #0f172a; background: white; text-align: left; }
-    ` + Array.from(template.querySelectorAll("style"), el => el.textContent).join("\n");
+    ` + embedCss;
     const wrapper = document.createElement("div");
     wrapper.className = "calculator";
     wrapper.append(document.importNode(main, true));
